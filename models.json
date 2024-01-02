@@ -1,0 +1,86 @@
+[
+    {
+        "name": "BrainDance",
+        "author": "br_d",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/102753?modelVersionId=128189",
+        "file_url": "braindance_BD071.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    },
+    {
+        "name": "BlazingDrive",
+        "author": "br_d",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/121083/blazing-drive",
+        "file_url": "blazingDrive_V12g.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    },
+    {
+        "name": "BluePencilRealistic",
+        "author": "blue_pen5805",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/88941/bluepencilrealistic?modelVersionId=110838",
+        "file_url": "bluePencilRealistic_v1.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    },
+    {
+        "name": "YamersCartoonArcadia",
+        "author": "Yamer",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/136113/sdxl-yamers-cartoon-arcadia?modelVersionId=274947",
+        "file_url": "sdxlYamersCartoonArcadia_xenoArcadiaCD.safetensors",
+        "vae": "Liquid0111vae",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    },
+    {
+        "name": "HelloWorldFilmGrain",
+        "author": "LEOSAM",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/43977?modelVersionId=113623",
+        "file_url": "leosamsHelloworldSDXL_filmGrain20.safetensors",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 5170
+    },
+    {
+        "name": "ArthemyComics",
+        "author": "Arthemy",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/54073/arthemy-comics?modelVersionId=255415",
+        "file_url": "arthemyComics_v60.safetensors",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    },
+    {
+        "name": "ArthemyReal",
+        "author": "Arthemy",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/240547/arthemy-real?modelVersionId=271398",
+        "file_url": "arthemyReal_v10.safetensors",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    },
+    {
+        "name": "ChosenChineseStyle",
+        "author": "chosen",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/95643/chosen-chinese-stylensfw-hentai?modelVersionId=219960",
+        "file_url": "ChosenChineseStyleNsfw_v20.safetensors",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    }
+]

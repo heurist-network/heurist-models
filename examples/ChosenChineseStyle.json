@@ -1,0 +1,15 @@
+{
+    "prompt": "masterpiece,ultra detailed,best quality,trending on artstation, Chinese style,cowboy shot,solo,1boy,male focus,long hair,looking at viewer,parted lips,from side,bangs,white hair,jewelry,white background,water,grey hair",
+    "neg_prompt": "EasyNegative,bad hands,Subtitles,word",
+    "seed": 397558025,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "clip_skip": 2,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
