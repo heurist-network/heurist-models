@@ -30,6 +30,7 @@
         "vae": "vae-ft-mse-840000-ema-pruned",
         "dtype": "float16",
         "group_id": 2,
+        "clip_skip": 2,
         "size_mb": 2150
     },
     {
@@ -51,6 +52,7 @@
         "file_url": "leosamsHelloworldSDXL_filmGrain20.safetensors",
         "dtype": "float16",
         "group_id": 2,
+        "clip_skip": 2,
         "size_mb": 5170
     },
     {
@@ -81,6 +83,7 @@
         "file_url": "ChosenChineseStyleNsfw_v20.safetensors",
         "dtype": "float16",
         "group_id": 2,
+        "clip_skip": 2,
         "size_mb": 2150
     }
 ]

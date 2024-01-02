@@ -6,7 +6,6 @@
     "height": 768,
     "num_inference_steps": 20,
     "guidance_scale": 7.5,
-    "clip_skip": 2,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
         "use_karras_sigmas": true,
