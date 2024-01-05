@@ -1,0 +1,13 @@
+[
+    {
+        "name": "BrainDance",
+        "author": "br_d",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/102753?modelVersionId=128189",
+        "file_url": "https://files.heurist.xyz/braindance_BD071.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "group_id": 2,
+        "size_mb": 2150
+    }
+]

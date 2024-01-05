@@ -1,12 +1,12 @@
 [
     {
         "name": "vae-ft-mse-840000-ema-pruned",
-        "file_url" : "vae-ft-mse-840000-ema-pruned.safetensors",
+        "file_url" : "https://files.heurist.xyz/vae-ft-mse-840000-ema-pruned.safetensors",
         "info_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original"
     },
     {
         "name": "Liquid0111vae",
-        "file_url" : "Liquid0111vae.safetensors",
+        "file_url" : "https://files.heurist.xyz/Liquid0111vae.safetensors",
         "info_url": "https://civitai.com/models/136113/sdxl-yamers-cartoon-arcadia?modelVersionId=274947"
     }
 ]
