@@ -1,0 +1,14 @@
+{
+    "prompt": "brom, traditional fine arts, portrait in tight space, young elf boy vampire mage sneaking in gothic castle, short red hair undercut, medieval, dark fantasy themes, orange purple blue, worried, atmosphere, coherent, continuity, epic, sharp focus",
+    "neg_prompt": "verybadimagenegative_v1.3, 3d, white eyes, strabism, layout, worst quality,low quality,normal quality,lowres,watermark, title, jpeg-artifacts",
+    "seed": 3144441028,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

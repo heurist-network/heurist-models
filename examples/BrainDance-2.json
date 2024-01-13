@@ -1,0 +1,14 @@
+{
+    "prompt": "absurdres, highres, ultra detailed, 1female, fireworks, watercolor style, soft blending, dreamy washes, delicate textures",
+    "neg_prompt": "worst quality, low quality, nsfw",
+    "seed": 388951580,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "prompt": "beautiful woman, mature, blonde hair, blue eyes, rain, looking down, blue raincoat, hood up, town, realistic",
+    "neg_prompt": "worst quality, bad quality, umbrella, blurry face, anime, illustration",
+    "seed": 1980215735,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 20,
+    "guidance_scale": 7.5,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

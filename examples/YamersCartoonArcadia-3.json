@@ -1,0 +1,14 @@
+{
+    "prompt": "pale demon girl, prismatic coloring, holographic vibe, chromatic black lace blouse, gothic background, long straight horns",
+    "neg_prompt": "bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image, deformation, skin moles",
+    "seed": 93174771,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 25,
+    "guidance_scale": 12,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

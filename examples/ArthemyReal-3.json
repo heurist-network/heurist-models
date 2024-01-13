@@ -1,0 +1,14 @@
+{
+    "prompt": "macro close-up, dried roses, purple light, nostalgic mood, analog photo, library, room, night, bokeh,  depth of field",
+    "neg_prompt": "model, asian,worst quality,low quality,normal quality,lowres,watermark, dark, 16bit",
+    "seed": 242657754,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 5.5,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
