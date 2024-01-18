@@ -1,10 +1,10 @@
 {
-    "prompt": "absurdres, highres, ultra detailed, 1female, fireworks, watercolor style, soft blending, dreamy washes, delicate textures",
+    "prompt": "1girl, absurdres, highres, ultra detailed, BREAK",
     "neg_prompt": "worst quality, low quality, nsfw",
-    "seed": 388951580,
+    "seed": 1697653465,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 30,
+    "num_inference_steps": 35,
     "guidance_scale": 7,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",

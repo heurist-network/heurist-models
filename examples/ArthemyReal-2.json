@@ -1,10 +1,10 @@
 {
-    "prompt": "macro close-up, dried roses, purple light, nostalgic mood, analog photo, library, room, night, bokeh,  depth of field",
-    "neg_prompt": "model, asian,worst quality,low quality,normal quality,lowres,watermark, dark, 16bit",
-    "seed": 242657754,
+    "prompt": "analog photo grain, gandalf, old wizard in daylight forest, long white beard, charismatic, complex lighting, atmosphere, coherent, continuity, epic, sharp lines",
+    "neg_prompt": "glass, modern, city, worst quality, low quality, normal quality, lowres,watermark, jpeg artifacts, baddream",
+    "seed": 4245026741,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 30,
+    "num_inference_steps": 35,
     "guidance_scale": 5.5,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",

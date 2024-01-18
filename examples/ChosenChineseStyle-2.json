@@ -1,10 +1,10 @@
 {
-    "prompt": "masterpiece,ultra detailed,best quality,trending on artstation, Chinese style,cowboy shot,solo,1boy,male focus,long hair,looking at viewer,parted lips,from side,bangs,white hair,jewelry,white background,water,grey hair",
-    "neg_prompt": "EasyNegative,bad hands,Subtitles,word",
-    "seed": 397558025,
+    "prompt": "masterpiece,best quality,PIXIV,Chinese style,1girl,hair ornament,solo,jewelry,looking at viewer,flower,earrings,bangs,portrait,hair flower,black hair,white flower,blurry background,long hair,blurry,closed mouth,hairclip,eyelashes,from side,ponytail,red lips,brown hair,makeup,gem,parted lips,black eyes,tassel,lips,chinese clothes",
+    "neg_prompt": "EasyNegative,badhandsv5-neg, Subtitles, word",
+    "seed": 1349237059,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 30,
+    "num_inference_steps": 36,
     "guidance_scale": 7,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",

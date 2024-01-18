@@ -1,11 +1,11 @@
 {
-    "prompt": "girl, simple background, side shot, ultra detailed, mecha, cyber full face helmet, goggles, Illustrate a translucent watercolor painting, with delicate washes of color, subtle blending, and an airy, dreamlike quality",
+    "prompt": "Girl, Orange Flower Crown, shallow depth of field, Proud, two colors",
     "neg_prompt": "worst quality, nsfw",
     "seed": 2795363458,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 30,
-    "guidance_scale": 6.5,
+    "num_inference_steps": 40,
+    "guidance_scale": 9.5,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
         "use_karras_sigmas": true,

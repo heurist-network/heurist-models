@@ -1,11 +1,11 @@
 {
-    "prompt": "beautiful aurora, starry night sky, scenery,absurdres,hyper realistic, texture, dramatic lighting, unreal engine, trending on artstation,award winning photo,nikon RAW photo,8k,Fujifilm XT3,masterpiece,cold, winter, mountain, fog, lut, cinematic, dimmed colors, dark shot, muted colors, film grain, ice,iceland",
-    "neg_prompt": "worst quality, low quality, bad_pictures, logo, human, traveller",
-    "seed": 2866436459,
+    "prompt": "otherworldly-scene, titanic-geysers, hair-raising-atmosphere, alien-weather-systems, 9:16-vertical-frame, hypnotic-landscapes, ultra-realistic-surfaces, contrasting-lights, trending-artstation, honored-creation, Panasonic-Lumix-S1R, 8k-resolution, peaceful, no-humans, extraterrestrial-geysers, towering-plumes, metallic-terrain, shimmering-colors, iridescent-clouds",
+    "neg_prompt": "worst quality, low quality, bad_pictures, negative_hand-neg",
+    "seed": 86301180,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 27,
-    "guidance_scale": 8,
+    "num_inference_steps": 26,
+    "guidance_scale": 7,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
         "use_karras_sigmas": true,

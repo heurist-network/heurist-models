@@ -1,10 +1,10 @@
 {
-    "prompt": "beautiful woman, mature, blonde hair, blue eyes, rain, looking down, blue raincoat, hood up, town, realistic",
+    "prompt": "realistic, photorealistic, ultra detailed, masterpiece, 8K illustration, extremely detailed CG unity 8K wallpaper, best quality, absurdres, official art, detailed skin texture, detailed cloth texture, beautiful detailed face, intricate details, best lighting, ultra high res, 8K UHD, film grain, dramatic lighting, delicate,1 girl, Ninym Ralei, blush, beautiful detailed face, skinny, beautiful detailed eyes, medium breasts, shirt, ahoge, straight long hair, red eyes, white shirt, sleeveless, bare shoulders, bangs, skirt, sleeveless shirt, white hair, indoors, upper body, collared shirt, high-waist skirt, lips, blue skirt, gold hair ornament, black ribbon, big pupil, Russian, pointy nose,dynamic angle, uncensored, perfect anatomy, forest, floating hair",
     "neg_prompt": "worst quality, bad quality, umbrella, blurry face, anime, illustration",
     "seed": 1980215735,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 20,
+    "num_inference_steps": 22,
     "guidance_scale": 7.5,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
