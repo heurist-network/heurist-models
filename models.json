@@ -7,7 +7,6 @@
         "file_url": "https://files.heurist.xyz/braindance_BD071.safetensors",
         "vae": "vae-ft-mse-840000-ema-pruned",
         "dtype": "float16",
-        "group_id": 2,
         "size_mb": 2150
     },
     {
@@ -18,7 +17,6 @@
         "file_url": "https://files.heurist.xyz/blazingDrive_V12g.safetensors",
         "vae": "vae-ft-mse-840000-ema-pruned",
         "dtype": "float16",
-        "group_id": 2,
         "size_mb": 2150
     },
     {
@@ -29,7 +27,6 @@
         "file_url": "https://files.heurist.xyz/bluePencilRealistic_v1.safetensors",
         "vae": "vae-ft-mse-840000-ema-pruned",
         "dtype": "float16",
-        "group_id": 2,
         "clip_skip": 2,
         "size_mb": 2150
     },
@@ -41,7 +38,6 @@
         "file_url": "https://files.heurist.xyz/sdxlYamersCartoonArcadia_xenoArcadiaCD.safetensors",
         "vae": "Liquid0111vae",
         "dtype": "float16",
-        "group_id": 2,
         "size_mb": 2150
     },
     {
@@ -51,7 +47,6 @@
         "info_url": "https://civitai.com/models/43977?modelVersionId=113623",
         "file_url": "https://files.heurist.xyz/leosamsHelloworldSDXL_filmGrain20.safetensors",
         "dtype": "float16",
-        "group_id": 2,
         "clip_skip": 2,
         "size_mb": 5170
     },
@@ -62,7 +57,6 @@
         "info_url": "https://civitai.com/models/54073/arthemy-comics?modelVersionId=255415",
         "file_url": "https://files.heurist.xyz/arthemyComics_v60.safetensors",
         "dtype": "float16",
-        "group_id": 2,
         "size_mb": 2150
     },
     {
@@ -72,7 +66,6 @@
         "info_url": "https://civitai.com/models/240547/arthemy-real?modelVersionId=271398",
         "file_url": "https://files.heurist.xyz/arthemyReal_v10.safetensors",
         "dtype": "float16",
-        "group_id": 2,
         "size_mb": 2150
     },
     {
@@ -82,8 +75,16 @@
         "info_url": "https://civitai.com/models/95643/chosen-chinese-stylensfw-hentai?modelVersionId=219960",
         "file_url": "https://files.heurist.xyz/ChosenChineseStyleNsfw_v20.safetensors",
         "dtype": "float16",
-        "group_id": 2,
         "clip_skip": 2,
         "size_mb": 2150
+    },
+    {
+        "name": "SDXLUnstableDiffusersV11",
+        "author": "Yamer",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/84040/sdxl-unstable-diffusers-yamermix",
+        "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950
     }
 ]

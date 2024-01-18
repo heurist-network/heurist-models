@@ -1,0 +1,10 @@
+[
+    {
+        "name": "xl_more_art-full",
+        "base_type": "sdxl10",
+        "author": "ledadu",
+        "size_mb": 720,
+        "info_url": "https://civitai.com/models/124347/xlmoreart-full-xlreal-enhancer",
+        "file_url": "https://files.heurist.xyz/xl_more_art-full_v1.safetensors"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name": "photomaker-v1",
+        "type": "photomaker",
+        "author": "Tencent",
+        "info_url": "https://github.com/TencentARC/PhotoMaker",
+        "file_url": "https://files.heurist.xyz/photomaker-v1.bin",
+        "size_mb": 935
+    }
+]
