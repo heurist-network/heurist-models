@@ -1,0 +1,14 @@
+{
+    "prompt": "cyberspace face, 22 years young, aesthetic, beautiful, background as code, cyberspace, mixed with 0 and 1, as well as fantasy code",
+    "neg_prompt": "low resolution, bad quality",
+    "seed": 1229456681,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

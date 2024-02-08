@@ -1,0 +1,14 @@
+{
+    "prompt": "red and gold asian dragon, paper lanterns, fireworks, night time",
+    "neg_prompt": "blurry, poor quality, text, watermark, bad anatomy",
+    "seed": 1223371431,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

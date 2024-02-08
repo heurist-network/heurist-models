@@ -1,0 +1,14 @@
+{
+    "prompt": "high quality elegant flower pattern with small very detailed flowers, premium quality, oil painting, highly detailed design, abstract, 4k, high resolution, sharp",
+    "neg_prompt": "low resolution, bad quality, worst quality, blurry, signature, watermark",
+    "seed": 1707818294,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 10,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
