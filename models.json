@@ -86,5 +86,40 @@
         "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
         "dtype": "float16",
         "size_mb": 6950
+    },
+    {
+        "name": "mistralai/mixtral-8x7b-instruct-v0.1",
+        "type": "llm8x7b",
+        "info_url": "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
+        "bits": 4,
+        "size_gb": 28
+    },
+    {
+        "name": "meta-llama/llama-2-70b-chat",
+        "type": "llm70b",
+        "info_url": "https://huggingface.co/TheBloke/Llama-2-70B-Chat-GPTQ",
+        "bits": 4,
+        "size_gb": 41
+    },
+    {
+        "name": "mistralai/mistral-7b-instruct-v0.2",
+        "type": "llm7b",
+        "info_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+        "bits": 16,
+        "size_gb": 15
+    },
+    {
+        "name": "openhermes-2.5-mistral-7b-gptq",
+        "type": "llm7b",
+        "info_url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ",
+        "bits": 8,
+        "size_gb": 10
+    },
+    {
+        "name": "openhermes-2.5-mistral-7b",
+        "type": "llm7b",
+        "info_url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+        "bits": 16,
+        "size_gb": 15
     }
 ]
