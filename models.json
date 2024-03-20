@@ -138,5 +138,5 @@
         "info_url": "https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
         "bits": 4,
         "size_gb": 28
-    },
+    }
 ]
