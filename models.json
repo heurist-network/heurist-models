@@ -129,5 +129,14 @@
         "info_url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
         "bits": 16,
         "size_gb": 15
-    }
+    },
+    {
+        "name": "openhermes-mixtral-8x7b-gptq",
+        "type": "llm8x7b4b",
+        "hf_id": "TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
+        "hf_branch": "gptq-4bit-32g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
+        "bits": 4,
+        "size_gb": 28
+    },
 ]
