@@ -138,5 +138,14 @@
         "info_url": "https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
         "bits": 4,
         "size_gb": 28
+    },
+    {
+        "name": "openhermes-2-yi-34b-gptq",
+        "type": "llm34b8b",
+        "hf_id": "TheBloke/Nous-Hermes-2-Yi-34B-GPTQ",
+        "hf_branch": "gptq-8bit-128g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/Nous-Hermes-2-Yi-34B-GPTQ",
+        "bits": 8,
+        "size_gb": 37
     }
 ]
