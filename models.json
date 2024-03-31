@@ -85,6 +85,7 @@
         "info_url": "https://civitai.com/models/40199/aurora",
         "file_url": "https://files.heurist.xyz/aurora_v10.safetensors",
         "dtype": "float16",
+        "vae": "kl-f8-anime2",
         "size_mb": 2150
     },
     {
