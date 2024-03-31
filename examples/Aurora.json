@@ -1,0 +1,14 @@
+{
+    "prompt": "mature, mori_calliope, crown, choker, masterpiece, best quality, close up:0.8, standing, realistic eyes, head tilt, smug, looking_at_viewer, dark:0.3",
+    "neg_prompt": "auroranegative, (Worst Quality), (Low Quality:1.4), border, outlines, nsfw",
+    "seed": 150752998,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 8,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

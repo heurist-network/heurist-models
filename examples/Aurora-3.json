@@ -1,0 +1,14 @@
+{
+    "prompt": "(realistic,painting_style), mature, amelia watson, virtual youtuber, short hair, blonde, choker, masterpiece, best quality, cowboy_shot, standing, realistic eyes, head tilt, smug, looking_at_viewer, mountain, holding_flowers",
+    "neg_prompt": "KHFB, auroranegative, (Worst Quality, Low Quality:1.4), border, anime, cartoon, outlines, grayscale",
+    "seed": 1877258373,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 8,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

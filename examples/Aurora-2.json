@@ -1,0 +1,14 @@
+{
+    "prompt": "(mksks style), (detailed background), nanashi_mumei, feather, solo, brown shirt, brown hair, long hair, comfy, (outdoors), (autumn), long sleeves",
+    "neg_prompt": "AuroraNegative,Worst Quality, Low Quality, blurry, border, nsfw, skimpy, grayscale, blurry hands",
+    "seed": 757086564,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 8,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
