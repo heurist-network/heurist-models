@@ -14,5 +14,13 @@
         "size_mb": 168,
         "type": "vae",
         "dtype": "float16"
+    },
+    {
+        "name": "kl-f8-anime2",
+        "file_url" : "https://files.heurist.xyz/kl-f8-anime2.ckpt",
+        "info_url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/blob/main/vae/kl-f8-anime2.ckpt",
+        "size_mb": 386,
+        "type": "vae",
+        "dtype": "float16"
     }
 ]
