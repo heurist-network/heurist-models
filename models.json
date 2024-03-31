@@ -79,11 +79,56 @@
         "size_mb": 2150
     },
     {
+        "name": "Aurora",
+        "author": "Luna",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/40199/aurora",
+        "file_url": "https://files.heurist.xyz/aurora_v10.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150
+    },
+    {
         "name": "SDXLUnstableDiffusersV11",
         "author": "Yamer",
         "type": "sdxl10",
         "info_url": "https://civitai.com/models/84040/sdxl-unstable-diffusers-yamermix",
         "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950
+    },
+    {
+        "name": "AnimagineXL",
+        "author": "CagliostroLab",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/260267?modelVersionId=293564",
+        "file_url": "https://files.heurist.xyz/animagineXLV31_v30.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950
+    },
+    {
+        "name": "CyberRealisticXL",
+        "author": "Cyberdelia",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/312530?modelVersionId=395041",
+        "file_url": "https://files.heurist.xyz/cyberrealisticXL_v11VAE.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950
+    },
+    {
+        "name": "DreamShaperXL",
+        "author": "Lykon",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/112902/dreamshaper-xl",
+        "file_url": "https://files.heurist.xyz/dreamshaperXL_v21TurboDPMSDE.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950
+    },
+    {
+        "name": "AAMXLAnimeMix",
+        "author": "Lykon",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/269232/aam-xl-anime-mix",
+        "file_url": "https://files.heurist.xyz/aamXLAnimeMix_v10.safetensors",
         "dtype": "float16",
         "size_mb": 6950
     },
