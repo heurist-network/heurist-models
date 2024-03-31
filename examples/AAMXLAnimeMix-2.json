@@ -1,10 +1,10 @@
 {
-    "prompt": "masterpiece, best quality, hatsune miku, white gown, angel, angel wings, golden halo, upper body, closed mouth, looking at viewer, arms behind back, blue theme, night, highres, 4k, 8k, intricate detail, cinematic lighting, amazing quality, amazing shading, soft lighting, Detailed Illustration, anime style, wallpaper",
-    "neg_prompt": "low quality, worst quality, negativeXL_D, cgi,  text, signature, watermark, extra limbs",
-    "seed": 206788548,
+    "prompt": "In the dystopian cityscape of cyberpunk, a mysterious figure shrouded in shadows stands, exuding an air of annoyance. The dusky fade adds an enigmatic touch to the scene as the character gazes out of the window with intense focus. The play of shadows and light creates a cinematic atmosphere, leaving viewers intrigued by the untold story behind this captivating moment. The artist's attention to detail elevates the emotional depth, making this artwork a masterpiece in the realm of cyberpunk aesthetics.",
+    "neg_prompt": "negativeXL_D, cgi, 3d render, bad quality, worst quality, text, signature, watermark, extra limbs,",
+    "seed": 684726996372601,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 25,
+    "num_inference_steps": 28,
     "guidance_scale": 7,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
