@@ -1,8 +1,8 @@
 {
-    "prompt": "1girl, (amiya arknights:1.2), (cinematic angle:1.2), urban background, masterpiece, best quality",
-    "neg_prompt": "nsfw, lowres, bad anatomy, bad hands, text, worst quality, low quality",
-    "seed": 256976321,
-    "width": 768,
+    "prompt": "1girl, (amiya arknights:1.2), cinematic angle, cinematic lighting, urban background, masterpiece, best quality, sharp focus, golden hour",
+    "neg_prompt": "nsfw, lowres, bad anatomy, bad hands, worst quality, low quality",
+    "seed": 2564345234,
+    "width": 680,
     "height": 1024,
     "num_inference_steps": 25,
     "guidance_scale": 7,

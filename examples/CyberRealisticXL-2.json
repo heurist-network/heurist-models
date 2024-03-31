@@ -1,0 +1,14 @@
+{
+    "prompt": "A medium 40mm glamour portrait of a tribal woman, (detailed facial features:0.2), high quality, professional photo, 28mm, (intricate detail), ((incredibly detailed skin:0.38)), Surreal Harmony, cinematic, lighting, 8K, HDR10, analog",
+    "neg_prompt": "(worst quality, low quality, normal quality, lowres, low details, grayscale, bw), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3)",
+    "seed": 2020697195,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
