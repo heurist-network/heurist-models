@@ -1,9 +1,9 @@
 {
-    "prompt": "In the dystopian cityscape of cyberpunk, a mysterious figure shrouded in shadows stands, exuding an air of annoyance. The dusky fade adds an enigmatic touch to the scene as the character gazes out of the window with intense focus. The play of shadows and light creates a cinematic atmosphere, leaving viewers intrigued by the untold story behind this captivating moment. The artist's attention to detail elevates the emotional depth, making this artwork a masterpiece in the realm of cyberpunk aesthetics.",
+    "prompt": "(dystopian cityscape),cyberpunk, mysterious figure, shrouded in shadows, air of annoyance. dusky fade, enigmatic, (gaze out of the window with intense focus),(cinematic atmosphere), captivating moment, trending on artstation, very detailed, masterpiece",
     "neg_prompt": "negativeXL_D, cgi, 3d render, bad quality, worst quality, text, signature, watermark, extra limbs,",
-    "seed": 684726996372601,
-    "width": 512,
-    "height": 768,
+    "seed": 68472699,
+    "width": 680,
+    "height": 1024,
     "num_inference_steps": 28,
     "guidance_scale": 7,
     "sampler": {

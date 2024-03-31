@@ -1,9 +1,9 @@
 {
-    "prompt": "(red and black mecha), gundam, masterpiece,best quality,ultra-detailed, anime screencap,extremely detailed,intricate details,highres,cowboy shot, samurai armor",
-    "neg_prompt": "(low quality, worst quality:1.4), negativeXL_D, cgi,  text, signature, watermark, extra limbs",
+    "prompt": "(red and black mecha), gundam, masterpiece,best quality,ultra-detailed, anime screencap,extremely detailed,intricate details,highres,cowboy shot, samurai armor, simple background, shiny metalic reflections",
+    "neg_prompt": "low quality, worst quality, blurry",
     "seed": 140963649,
-    "width": 512,
-    "height": 768,
+    "width": 680,
+    "height": 1024,
     "num_inference_steps": 28,
     "guidance_scale": 7,
     "sampler": {
