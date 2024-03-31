@@ -1,0 +1,14 @@
+{
+    "prompt": "1girl, (amiya arknights:1.2), (cinematic angle:1.2), urban background, masterpiece, best quality",
+    "neg_prompt": "nsfw, lowres, bad anatomy, bad hands, text, worst quality, low quality",
+    "seed": 256976321,
+    "width": 768,
+    "height": 1024,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
