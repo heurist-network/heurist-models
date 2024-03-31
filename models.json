@@ -69,16 +69,6 @@
         "size_mb": 2150
     },
     {
-        "name": "ChosenChineseStyle",
-        "author": "chosen",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/95643/chosen-chinese-stylensfw-hentai?modelVersionId=219960",
-        "file_url": "https://files.heurist.xyz/ChosenChineseStyleNsfw_v20.safetensors",
-        "dtype": "float16",
-        "clip_skip": 2,
-        "size_mb": 2150
-    },
-    {
         "name": "Aurora",
         "author": "Luna",
         "type": "sd15",
