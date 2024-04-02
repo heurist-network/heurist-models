@@ -6,5 +6,21 @@
         "size_mb": 720,
         "info_url": "https://civitai.com/models/124347/xlmoreart-full-xlreal-enhancer",
         "file_url": "https://files.heurist.xyz/xl_more_art-full_v1.safetensors"
+    },
+    {
+        "name": "glowneon_xl",
+        "base_type": "sdxl10",
+        "author": "Cybernella",
+        "size_mb": 325,
+        "info_url": "https://civitai.com/models/310235/glowneon-xl-lora",
+        "file_url": "https://civitai.com/api/download/models/348189?type=Model&format=SafeTensor"
+    },
+    {
+        "name": "wolfcon",
+        "base_type": "sdxl10",
+        "author": "L_A_X",
+        "size_mb": 325,
+        "info_url": "https://civitai.com/models/125622/sd-xl10-lora-wolfcon-concept",
+        "file_url": "https://civitai.com/api/download/models/137240?type=Model&format=SafeTensor"
     }
 ]
