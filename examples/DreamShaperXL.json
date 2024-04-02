@@ -1,0 +1,14 @@
+{
+    "prompt": "cinematic film still, Storm Trooper, colored lights, amazing quality, wallpaper, analog film grain, best quality, 4k, 8k, metalic reflection",
+    "neg_prompt": "(low quality, worst quality:1.4), cgi,  text, signature, watermark, extra limbs, nipples",
+    "seed": 1136711377,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

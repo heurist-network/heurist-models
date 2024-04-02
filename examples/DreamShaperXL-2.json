@@ -1,0 +1,14 @@
+{
+    "prompt": "80's anime screencap, girl wearing a cropped top and short shorts, artistic rendition with wide brush strokes, anime comic",
+    "neg_prompt": "cgi, render, bad quality, worst quality, text, signature, watermark, extra limbs, blurry",
+    "seed": 2084045052,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

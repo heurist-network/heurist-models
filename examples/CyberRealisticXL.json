@@ -1,0 +1,14 @@
+{
+    "prompt": "gritty raw street photography, plain clean earthy young female hacker, short skirt, thigh highs, black boots, matrixpunk clothing, sitting, with neon lighting from shop signs, film grain, cinematic film still, shallow depth of field, highly detailed, high budget, cinemascope, moody, epic, gorgeous, 2000s vintage RAW photo, photorealistic, color graded cinematic, eye catchlights, atmospheric lighting, skin pores, imperfections, natural, shallow dof",
+    "neg_prompt": "worst quality, low quality, normal quality, lowres, low details, grayscale, bw), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3",
+    "seed": 871900434,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

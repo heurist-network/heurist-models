@@ -1,10 +1,10 @@
 {
-    "prompt": "1girl, (amiya arknights:1.2), (cinematic angle:1.2), urban background, masterpiece, best quality",
-    "neg_prompt": "nsfw, lowres, bad anatomy, bad hands, text, worst quality, low quality",
-    "seed": 256976321,
+    "prompt": "A boy and a girl, Emiya Shirou and Saber from fate series, having their breakfast in the dining room. Emiya Shirou wears white t-shirt and jacket. Saber wears white dress with blue neck ribbon. Rice, soup, and minced meats are served on the table. They look at each other while smiling happily, masterpiece, best quality",
+    "neg_prompt": "nsfw, lowres, bad anatomy, bad hands, worst quality, low quality, blurry",
+    "seed": 256432,
     "width": 768,
     "height": 1024,
-    "num_inference_steps": 25,
+    "num_inference_steps": 28,
     "guidance_scale": 7,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",

@@ -2,8 +2,8 @@
     "prompt": "masterpiece, best quality, hatsune miku, white gown, angel, angel wings, golden halo, upper body, closed mouth, looking at viewer, arms behind back, blue theme, night, highres, 4k, 8k, intricate detail, cinematic lighting, amazing quality, amazing shading, soft lighting, Detailed Illustration, anime style, wallpaper",
     "neg_prompt": "low quality, worst quality, negativeXL_D, cgi,  text, signature, watermark, extra limbs",
     "seed": 206788548,
-    "width": 512,
-    "height": 768,
+    "width": 680,
+    "height": 1024,
     "num_inference_steps": 25,
     "guidance_scale": 7,
     "sampler": {

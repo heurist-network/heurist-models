@@ -1,0 +1,14 @@
+{
+    "prompt": "stunning natural post-apocalyptic neon color raw portrait, senegalese male, pompous dancer, (brocade shirt, pants, bow tie, bowler hat:1.2), indoors in a steamy (red night club, dark and moody, red mood lighting, red color tint, dark reddish shadows, orange highlights, crimson hues), post-apocalyptic scene with electrical attr, neon color raw photo, epic character composition, sharp focus, subsurface scattering, f2, 35mm, film grain",
+    "neg_prompt": "(worst quality, low quality, normal quality, lowres, low details, grayscale, bw), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3)",
+    "seed": 2274748830,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "prompt": "photorealistic, photo of a Cat poised gracefully atop an ancient oak tree, autumn leaves fluttering around, golden hour casting long shadows, backlit, sharp focus on feline, bokeh effect on background foliage, cinematic film still, ultra detailed, best quality, sharp focus",
+    "neg_prompt": "ugly, deformed, noisy, blurry, low contrast, girl, boy",
+    "seed": 554464374,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
