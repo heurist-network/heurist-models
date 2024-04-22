@@ -167,6 +167,14 @@
         "size_gb": 15
     },
     {
+        "name": "dolphin-2.9-llama3-8b",
+        "type": "llm8b16b",
+        "hf_id": "cognitivecomputations/dolphin-2.9-llama3-8b",
+        "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+        "bits": 16,
+        "size_gb": 18
+    },
+    {
         "name": "openhermes-mixtral-8x7b-gptq",
         "type": "llm8x7b4b",
         "hf_id": "TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
