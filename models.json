@@ -124,7 +124,7 @@
         "size_mb": 6950
     },
     {
-        "name": "mistralai/mixtral-8x7b-instruct-v0.1",
+        "name": "mistralai/mixtral-8x7b-instruct",
         "type": "llm8x7b4b",
         "hf_id": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
         "hf_branch": "gptq-4bit-32g-actorder_True",
@@ -142,7 +142,7 @@
         "size_gb": 41
     },
     {
-        "name": "mistralai/mistral-7b-instruct-v0.2",
+        "name": "mistralai/mistral-7b-instruct",
         "type": "llm7b16b",
         "hf_id": "mistralai/Mistral-7B-Instruct-v0.1",
         "info_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
