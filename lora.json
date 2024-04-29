@@ -1,49 +1,55 @@
 [
     {
         "name": "xl_more_art-full",
-        "base_type": "sdxl10",
+        "type": "lora",
         "author": "ledadu",
         "size_mb": 720,
+        "base_model": "sdxl10",
         "info_url": "https://civitai.com/models/124347/xlmoreart-full-xlreal-enhancer",
         "file_url": "https://files.heurist.xyz/xl_more_art-full_v1.safetensors"
     },
     {
         "name": "glowneon_xl",
-        "base_type": "sdxl10",
+        "type": "lora",
         "author": "Cybernella",
         "size_mb": 325,
+        "base_model": "sdxl10",
         "info_url": "https://civitai.com/models/310235/glowneon-xl-lora",
         "file_url": "https://civitai.com/api/download/models/348189?type=Model&format=SafeTensor"
     },
     {
         "name": "wolfcon",
-        "base_type": "sdxl10",
+        "type": "lora",
         "author": "L_A_X",
         "size_mb": 325,
+        "base_model": "sdxl10",
         "info_url": "https://civitai.com/models/125622/sd-xl10-lora-wolfcon-concept",
         "file_url": "https://civitai.com/api/download/models/137240?type=Model&format=SafeTensor"
     },
     {
         "name": "lineaniredmond",
-        "base_type": "sdxl10",
+        "type": "lora",
         "author": "artificialguybr",
         "size_mb": 162,
+        "base_model": "sdxl10",
         "info_url": "https://civitai.com/models/127018/lineaniredmond-linear-manga-style-for-sd-xl-anime-style",
         "file_url": "https://civitai.com/api/download/models/177544?type=Model&format=SafeTensor"
     },
     {
         "name": "pixelart",
-        "base_type": "sdxl10",
+        "type": "lora",
         "author": "NeriJS",
         "size_mb": 162,
+        "base_model": "sdxl10",
         "info_url": "https://civitai.com/models/120096/pixel-art-xl",
         "file_url": "https://civitai.com/api/download/models/135931?type=Model&format=SafeTensor"
     },
     {
         "name": "coloringbookredmond",
-        "base_type": "sdxl10",
+        "type": "lora",
         "author": "artificialguybr",
         "size_mb": 162,
+        "base_model": "sdxl10",
         "info_url": "https://civitai.com/models/136348/coloringbookredmond-coloring-book-lora-for-sd-xl",
         "file_url": "https://civitai.com/api/download/models/177996?type=Model&format=SafeTensor"
     }
