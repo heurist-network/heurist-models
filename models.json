@@ -1,6 +1,7 @@
 [
     {
-        "name": "Aurora#MagusDevon",
+        "name": "MagusDevon",
+        "base": "Aurora",
         "author": "madotsuki.eth",
         "author_url": "https://madotsuki.eth.co/",
         "type": "composite15",
