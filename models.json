@@ -1,5 +1,15 @@
 [
     {
+        "name": "Aurora#MagusDevon",
+        "author": "madotsuki.eth",
+        "author_url": "https://madotsuki.eth.co/",
+        "type": "composite",
+        "info_url": "",
+        "file_url": "",
+        "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat",
+        "recommend": "mushrooms, white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear"
+    },
+    {
         "name": "BrainDance",
         "author": "br_d",
         "type": "sd15",
