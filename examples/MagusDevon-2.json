@@ -1,0 +1,14 @@
+{
+    "prompt": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, white robe, mushrooms, masterpiece, ((best quality)), ((vibrant colors)), (mesmerizing blend of light and shadow), cinematic lighting, absurdres, looking at viewer",
+    "neg_prompt": "((worst quality)), ((low quality)), texts, distorted, bad fingers, bad hands, blurry, signature, artist name, cropped, jpeg artifacts, watermark, username, collage, grid, dark face",
+    "seed": 99362169,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 7.5,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

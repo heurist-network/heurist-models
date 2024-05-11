@@ -1,0 +1,14 @@
+{
+    "prompt": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, a few mushrooms, white robe, at night, dynamic lights, full moon, best quality, masterpiece, ultra detailed, highres, 4k, digital art trending on artstation",
+    "neg_prompt": "((worst quality)), ((low quality)), texts, bad fingers, blurry, signature, artist name, cropped, jpeg artifacts, watermark, username, collage, grid, dark face, incorrect hands",
+    "seed": 33623365,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 30,
+    "guidance_scale": 6.5,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
