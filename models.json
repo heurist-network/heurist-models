@@ -52,6 +52,15 @@
         "size_mb": 2150
     },
     {
+        "name": "ArchitectureRealMix",
+        "author": "laizhende",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/84958?modelVersionId=431755",
+        "file_url": "https://files.heurist.xyz/architecturerealmix_v11.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150
+    },
+    {
         "name": "HelloWorldFilmGrain",
         "author": "LEOSAM",
         "type": "sd15",
