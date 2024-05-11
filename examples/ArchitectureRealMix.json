@@ -1,0 +1,14 @@
+{
+    "prompt": "ultra realistic,4K,cinematic,high contrast,forest,villa,tree,creek,modern building,steel,glass",
+    "neg_prompt": "lowres,text,error,cropped,worst quality,low quality,normal quality,jpg artifacts,signature,watermark,username,blurry",
+    "seed": 68472699,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 28,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "prompt": "masterpiece,realistic,best quality,((high-rise office building)),architectural renderings,horizen facade,landscape,cloudy_sky,road,street,city,high-rise complex",
+    "neg_prompt": "lowres,text,error,cropped,worst quality,low quality,normal quality,jpg artifacts,signature,watermark,username,blurry,vehicles",
+    "seed": 13605081,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
