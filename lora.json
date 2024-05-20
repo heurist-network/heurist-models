@@ -6,6 +6,7 @@
         "size_mb": 37,
         "base_model": "sd15",
         "info_url": "",
-        "file_url": "https://files.heurist.xyz/MagusDevon_2024_NAI_V1.safetensors"
+        "file_url": "https://files.heurist.xyz/MagusDevon_2024_NAI_V1.safetensors",
+        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F"
     }
 ]
