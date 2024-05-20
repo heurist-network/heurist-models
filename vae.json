@@ -1,26 +1,29 @@
 [
     {
         "name": "vae-ft-mse-840000-ema-pruned",
-        "file_url" : "https://files.heurist.xyz/vae-ft-mse-840000-ema-pruned.safetensors",
+        "file_url": "https://files.heurist.xyz/vae-ft-mse-840000-ema-pruned.safetensors",
         "info_url": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original",
         "size_mb": 335,
         "type": "vae",
-        "dtype": "float16"
+        "dtype": "float16",
+        "checksum": "735E4C3A447A3255760D7F86845F09F937809BAA529C17370D83E4C3758F3C75"
     },
     {
         "name": "Liquid0111vae",
-        "file_url" : "https://files.heurist.xyz/Liquid0111vae.safetensors",
+        "file_url": "https://files.heurist.xyz/Liquid0111vae.safetensors",
         "info_url": "https://civitai.com/models/136113/sdxl-yamers-cartoon-arcadia?modelVersionId=274947",
         "size_mb": 168,
         "type": "vae",
-        "dtype": "float16"
+        "dtype": "float16",
+        "checksum": "FDB85BAA1598FB5D3A148B19CB5E5D4EED1815C6EE9472D58BF78FC656DA3847"
     },
     {
         "name": "kl-f8-anime2",
-        "file_url" : "https://files.heurist.xyz/kl-f8-anime2.safetensors",
+        "file_url": "https://files.heurist.xyz/kl-f8-anime2.safetensors",
         "info_url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/tree/92e0470e5a9601cdd85a3db349a591df9ed7e2ad/vae",
         "size_mb": 405,
         "type": "vae",
-        "dtype": "float16"
+        "dtype": "float16",
+        "checksum": "B8821A5D58746D1A6306ECC99EDA3B0268FF3DA84C40D18CE68698E3BD402635"
     }
 ]
