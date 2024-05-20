@@ -9,7 +9,8 @@
         "file_url": "",
         "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, mushrooms",
         "recommend": "white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear",
-        "default_weight": 0.7
+        "default_weight": 0.7,
+        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F"
     },
     {
         "name": "BrainDance",
