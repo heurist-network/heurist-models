@@ -169,6 +169,15 @@
         "size_gb": 28
     },
     {
+        "name": "mistralai/mixtral-8x22b-instruct",
+        "type": "llm8x22b",
+        "hf_id": "",
+        "hf_branch": "",
+        "info_url": "",
+        "bits": 0,
+        "size_gb": 0
+    },
+    {
         "name": "meta-llama/llama-2-70b-chat",
         "type": "llm70b4b",
         "hf_id": "TheBloke/Llama-2-70B-Chat-GPTQ",
@@ -176,6 +185,15 @@
         "info_url": "https://huggingface.co/TheBloke/Llama-2-70B-Chat-GPTQ",
         "bits": 4,
         "size_gb": 41
+    },
+    {
+        "name": "meta-llama/llama-3-70b-instruct",
+        "type": "llm70b",
+        "hf_id": "",
+        "hf_branch": "",
+        "info_url": "",
+        "bits": 0,
+        "size_gb": 0
     },
     {
         "name": "mistralai/mistral-7b-instruct",
