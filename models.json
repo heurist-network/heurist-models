@@ -196,6 +196,15 @@
         "size_gb": 0
     },
     {
+        "name": "meta-llama/llama-3.1-405b-instruct",
+        "type": "llm405b",
+        "hf_id": "",
+        "hf_branch": "",
+        "info_url": "",
+        "bits": 0,
+        "size_gb": 0
+    },
+    {
         "name": "mistralai/mistral-7b-instruct",
         "type": "llm7b16b",
         "hf_id": "mistralai/Mistral-7B-Instruct-v0.1",
