@@ -1,0 +1,249 @@
+[
+    {
+        "name": "MagusDevon",
+        "base": "Aurora",
+        "author": "madotsuki.eth",
+        "author_url": "https://madotsuki.eth.co/",
+        "type": "composite15",
+        "info_url": "",
+        "file_url": "",
+        "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, mushrooms",
+        "recommend": "white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear",
+        "default_weight": 0.7,
+        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F"
+    },
+    {
+        "name": "BrainDance",
+        "author": "br_d",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/102753?modelVersionId=128189",
+        "file_url": "https://files.heurist.xyz/braindance_BD071.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "2B69964BBC2F99A9A96CB162D4F050A58921955EDC8FFCA9120110530ABF60B3"
+    },
+    {
+        "name": "BlazingDrive",
+        "author": "br_d",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/121083?modelVersionId=245691",
+        "file_url": "https://files.heurist.xyz/blazingDrive_V12g.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "623D0528ADCE4183777BD46BADD81EC614B65F9A3592F21727F068C5692726B4"
+    },
+    {
+        "name": "BluePencilRealistic",
+        "author": "blue_pen5805",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/88941/bluepencilrealistic?modelVersionId=110838",
+        "file_url": "https://files.heurist.xyz/bluePencilRealistic_v1.safetensors",
+        "vae": "vae-ft-mse-840000-ema-pruned",
+        "dtype": "float16",
+        "clip_skip": 2,
+        "size_mb": 2150,
+        "checksum": "C1D3D52173B6B1C56C6BA03A14F55D8E4B07EF3387CA16807FA85DE729EB47CE"
+    },
+    {
+        "name": "YamersCartoonArcadia",
+        "author": "Yamer",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/136113/sdxl-yamers-cartoon-arcadia?modelVersionId=274947",
+        "file_url": "https://files.heurist.xyz/sdxlYamersCartoonArcadia_xenoArcadiaCD.safetensors",
+        "vae": "Liquid0111vae",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "FD49E8489DDA20568A2D19A8211569B059203D89DE5A159A999192F9B32DCA7D"
+    },
+    {
+        "name": "ArchitectureRealMix",
+        "author": "laizhende",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/84958?modelVersionId=431755",
+        "file_url": "https://files.heurist.xyz/architecturerealmix_v11.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "C28787D1B418B2C81D849BA2CB25CF6D0F3ABB345C8215D8A786B875226E517C"
+    },
+    {
+        "name": "HelloWorldFilmGrain",
+        "author": "LEOSAM",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/43977?modelVersionId=113623",
+        "file_url": "https://files.heurist.xyz/leosamsHelloworldSDXL_filmGrain20.safetensors",
+        "dtype": "float16",
+        "clip_skip": 2,
+        "size_mb": 5170,
+        "checksum": "FE54B5D04D5D55991B19CD120CC21F1161A1941EB85C5645E5813FD900F8B617"
+    },
+    {
+        "name": "ArthemyComics",
+        "author": "Arthemy",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/54073/arthemy-comics?modelVersionId=255415",
+        "file_url": "https://files.heurist.xyz/arthemyComics_v60.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "B9CA0FA8A90619B163E382C467E9870110A95CA20AB75F9D5A44D040D2DF93F8"
+    },
+    {
+        "name": "ArthemyReal",
+        "author": "Arthemy",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/240547/arthemy-real?modelVersionId=271398",
+        "file_url": "https://files.heurist.xyz/arthemyReal_v10.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "4A97F316FAAF4BA673FCABF8285AE84D23DE1BF7346F76279D6064468EBE9833"
+    },
+    {
+        "name": "Aurora",
+        "author": "Luna",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/40199/aurora",
+        "file_url": "https://files.heurist.xyz/aurora_v10.safetensors",
+        "dtype": "float16",
+        "vae": "kl-f8-anime2",
+        "size_mb": 2150,
+        "checksum": "1B5F8211EC04926035AC81033518C802DB9964E93630AB4698B6365B9811C7EB"
+    },
+    {
+        "name": "SDXLUnstableDiffusersV11",
+        "author": "Yamer",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/84040?modelVersionId=276923",
+        "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "096EB037FC8AB7F154BF2DE9FBFF3B433F32E9BC66A1FAE9C14F28E881AF1D11"
+    },
+    {
+        "name": "AnimagineXL",
+        "author": "CagliostroLab",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/260267?modelVersionId=293564",
+        "file_url": "https://files.heurist.xyz/animagineXLV31_v30.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "1449E5B0B9DE87B0F414C5F29CB11CE3B3DC61FA2B320E784C9441720BF7B766"
+    },
+    {
+        "name": "CyberRealisticXL",
+        "author": "Cyberdelia",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/312530?modelVersionId=395041",
+        "file_url": "https://files.heurist.xyz/cyberrealisticXL_v11VAE.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "E9337AE032D6A2D411702FC6ACAD76BFBDDDEB1A697A62BFDB83881E949532C8"
+    },
+    {
+        "name": "DreamShaperXL",
+        "author": "Lykon",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/112902/dreamshaper-xl",
+        "file_url": "https://files.heurist.xyz/dreamshaperXL_v21TurboDPMSDE.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083"
+    },
+    {
+        "name": "AAMXLAnimeMix",
+        "author": "Lykon",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/269232/aam-xl-anime-mix",
+        "file_url": "https://files.heurist.xyz/aamXLAnimeMix_v10.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "D48C2391E04F7DBC83D8538B71BE8A30991F3E4E2FF1A8A757B849381F769A8B"
+    },
+    {
+        "name": "mistralai/mixtral-8x7b-instruct",
+        "type": "llm8x7b4b",
+        "hf_id": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
+        "hf_branch": "gptq-4bit-32g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
+        "bits": 4,
+        "size_gb": 28
+    },
+    {
+        "name": "mistralai/mixtral-8x22b-instruct",
+        "type": "llm8x22b",
+        "hf_id": "",
+        "hf_branch": "",
+        "info_url": "",
+        "bits": 0,
+        "size_gb": 0
+    },
+    {
+        "name": "meta-llama/llama-2-70b-chat",
+        "type": "llm70b4b",
+        "hf_id": "TheBloke/Llama-2-70B-Chat-GPTQ",
+        "hf_branch": "gptq-4bit-32g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/Llama-2-70B-Chat-GPTQ",
+        "bits": 4,
+        "size_gb": 41
+    },
+    {
+        "name": "meta-llama/llama-3-70b-instruct",
+        "type": "llm70b",
+        "hf_id": "",
+        "hf_branch": "",
+        "info_url": "",
+        "bits": 0,
+        "size_gb": 0
+    },
+    {
+        "name": "mistralai/mistral-7b-instruct",
+        "type": "llm7b16b",
+        "hf_id": "mistralai/Mistral-7B-Instruct-v0.1",
+        "info_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+        "bits": 16,
+        "size_gb": 15
+    },
+    {
+        "name": "openhermes-2.5-mistral-7b-gptq",
+        "type": "llm7b8b",
+        "hf_id": "TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ",
+        "hf_branch": "gptq-8bit-32g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ",
+        "bits": 8,
+        "size_gb": 10
+    },
+    {
+        "name": "openhermes-2-pro-mistral-7b",
+        "type": "llm7b16b",
+        "hf_id": "NousResearch/Hermes-2-Pro-Mistral-7B",
+        "info_url": "https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B",
+        "bits": 16,
+        "size_gb": 15
+    },
+    {
+        "name": "dolphin-2.9-llama3-8b",
+        "type": "llm8b16b",
+        "hf_id": "cognitivecomputations/dolphin-2.9-llama3-8b",
+        "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+        "bits": 16,
+        "size_gb": 18
+    },
+    {
+        "name": "openhermes-mixtral-8x7b-gptq",
+        "type": "llm8x7b4b",
+        "hf_id": "TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
+        "hf_branch": "gptq-4bit-32g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
+        "bits": 4,
+        "size_gb": 28
+    },
+    {
+        "name": "openhermes-2-yi-34b-gptq",
+        "type": "llm34b8b",
+        "hf_id": "TheBloke/Nous-Hermes-2-Yi-34B-GPTQ",
+        "hf_branch": "gptq-8bit-128g-actorder_True",
+        "info_url": "https://huggingface.co/TheBloke/Nous-Hermes-2-Yi-34B-GPTQ",
+        "bits": 8,
+        "size_gb": 37
+    }
+]
