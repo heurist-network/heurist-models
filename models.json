@@ -213,15 +213,6 @@
         "size_gb": 15
     },
     {
-        "name": "openhermes-2.5-mistral-7b-gptq",
-        "type": "llm7b8b",
-        "hf_id": "TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ",
-        "hf_branch": "gptq-8bit-32g-actorder_True",
-        "info_url": "https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ",
-        "bits": 8,
-        "size_gb": 10
-    },
-    {
         "name": "openhermes-2-pro-mistral-7b",
         "type": "llm7b16b",
         "hf_id": "NousResearch/Hermes-2-Pro-Mistral-7B",
