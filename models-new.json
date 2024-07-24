@@ -52,20 +52,6 @@
         "checksum": "CBE1E1C746301801613CB331F2051AD16FF724DDA764A54135AA89D909067B97"
     },
     {
-        "name": "DonaldTrump",
-        "base": "ChilloutMix",
-        "author": "Coplasx",
-        "type": "composite15",
-        "info_url": "https://civitai.com/models/17171/donald-trump",
-        "file_url": "https://files.heurist.xyz/D.Trump_v1.safetensors",
-        "dtype": "float16",
-        "size_mb": 36,
-        "autofill": "Trump",
-        "recommend": "1 male, intricate details, extremely realistic, photography",
-        "default_weight": 1,
-        "checksum": "6F85824860169587D15B8959BBE591B7DD87EA3ACC19E318C3861838FB2D4310"
-    },
-    {
         "name": "ChilloutMix",
         "author": "civitai",
         "type": "sd15",
