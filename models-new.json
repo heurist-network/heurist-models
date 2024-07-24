@@ -1,4 +1,80 @@
-[
+[   
+    {
+        "name": "Philand",
+        "base": "SDXL",
+        "author": "LDWorks",
+        "type": "compositexl",
+        "info_url": "",
+        "file_url": "https://files.heurist.xyz/ph1land-SDXL-LDW.safetensors",
+        "dtype": "float16",
+        "size_mb": 912,
+        "autofill": "ph1land style, pixel art, isometric view",
+        "recommend": "",
+        "default_weight": 1,
+        "checksum": "A0F6340B8644F53240DD3970F58F15FBE1D10FE82B462B7E301D13A11B4F9F8F"
+    },
+    {
+        "name": "WeirdCore",
+        "base": "SDXL",
+        "author": "blairesilver13",
+        "type": "compositexl",
+        "info_url": "https://civitai.com/models/424043/weirdcore-style",
+        "file_url": "https://files.heurist.xyz/Weirdcore.safetensors",
+        "dtype": "float16",
+        "size_mb": 1392,
+        "autofill": "WRDCR style",
+        "recommend": "",
+        "default_weight": 1,
+        "checksum": "7CE7E5A4E9D7DA878B18363C89BA0F7707741F0896327D2E25435E076808FF98"
+    },
+    {
+        "name": "SDXL",
+        "author": "StabilityAI",
+        "type": "sdxl10",
+        "info_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "file_url": "https://files.heurist.xyz/sdXL_v10VAEFix.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "E6BB9EA85BBF7BF6478A7C6D18B71246F22E95D41BCDD80ED40AA212C33CFEFF"
+    },
+    {
+        "name": "PepeXL",
+        "base": "AAMXLAnimeMix",
+        "author": "doctor_diffusion",
+        "type": "compositexl",
+        "info_url": "https://civitai.com/models/161611/pepe-xl-lora",
+        "file_url": "https://files.heurist.xyz/DD-pepe-v2.safetensors",
+        "dtype": "float16",
+        "size_mb": 234,
+        "autofill": "Pepe",
+        "recommend": "pepe_frog, meme, web comic, cartoon, 3d render",
+        "default_weight": 0.8,
+        "checksum": "CBE1E1C746301801613CB331F2051AD16FF724DDA764A54135AA89D909067B97"
+    },
+    {
+        "name": "DonaldTrump",
+        "base": "ChilloutMix",
+        "author": "Coplasx",
+        "type": "composite15",
+        "info_url": "https://civitai.com/models/17171/donald-trump",
+        "file_url": "https://files.heurist.xyz/D.Trump_v1.safetensors",
+        "dtype": "float16",
+        "size_mb": 36,
+        "autofill": "Trump",
+        "recommend": "1 male, intricate details, extremely realistic, photography",
+        "default_weight": 1,
+        "checksum": "6F85824860169587D15B8959BBE591B7DD87EA3ACC19E318C3861838FB2D4310"
+    },
+    {
+        "name": "ChilloutMix",
+        "author": "civitai",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/6424?modelVersionId=11732",
+        "file_url": "https://files.heurist.xyz/chilloutmix_NiPrunedFp16Fix.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C"
+    },
     {
         "name": "MagusDevon",
         "base": "Aurora",
