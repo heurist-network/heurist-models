@@ -12,7 +12,7 @@
     {
         "name": "Philand",
         "type": "lora",
-        "base_model": "SDXL",
+        "base_model": "sdxl10",
         "author": "LDWorks",
         "info_url": "",
         "file_url": "https://files.heurist.xyz/ph1land-SDXL-LDW.safetensors",
@@ -26,7 +26,7 @@
     {
         "name": "WeirdCore",
         "type": "lora",
-        "base_model": "SDXL",
+        "base_model": "sdxl10",
         "author": "blairesilver13",
         "info_url": "https://civitai.com/models/424043/weirdcore-style",
         "file_url": "https://files.heurist.xyz/Weirdcore.safetensors",
@@ -40,7 +40,7 @@
     {
         "name": "PepeXL",
         "type": "lora",
-        "base_model": "AAMXLAnimeMix",
+        "base_model": "sdxl10",
         "author": "doctor_diffusion",
         "info_url": "https://civitai.com/models/161611/pepe-xl-lora",
         "file_url": "https://files.heurist.xyz/DD-pepe-v2.safetensors",
@@ -54,7 +54,7 @@
     {
         "name": "DonaldTrump",
         "type": "lora",
-        "base_model": "ChilloutMix",
+        "base_model": "sd15",
         "author": "Coplasx",
         "info_url": "https://civitai.com/models/17171/donald-trump",
         "file_url": "https://files.heurist.xyz/D.Trump_v1.safetensors",
