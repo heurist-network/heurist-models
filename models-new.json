@@ -1,5 +1,19 @@
 [   
     {
+        "name": "Zeek",
+        "base": "SDXL",
+        "author": "LDWorks",
+        "type": "compositexl",
+        "info_url": "",
+        "file_url": "https://files.heurist.xyz/z33k-Heurist-v2.5.safetensors0",
+        "dtype": "float16",
+        "size_mb": 456,
+        "autofill": "z33k",
+        "recommend": "wearing ..., disguised as ...",
+        "default_weight": 1,
+        "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4"
+    },
+    {
         "name": "Philand",
         "base": "SDXL",
         "author": "LDWorks",
