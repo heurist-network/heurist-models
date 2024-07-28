@@ -1,5 +1,5 @@
 {
-    "prompt": "1girl, absurdres, highres, ultra detailed, BREAK",
+    "prompt": "1girl, absurdres, highres, ultra detailed",
     "neg_prompt": "worst quality, low quality, nsfw",
     "seed": 1697653465,
     "width": 512,
