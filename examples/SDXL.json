@@ -1,0 +1,14 @@
+{
+    "prompt": "National Geographic award winning nature photography, under water, koi fish, swimming underwater, vibrant caustic lighting, photographic interplay of light and shadow",
+    "neg_prompt": "(deformed iris, deformed pupils), text, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, (extra fingers), (mutated hands), poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, (fused fingers), (too many fingers), long neck, camera",
+    "seed": 2288435497,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 22,
+    "guidance_scale": 4,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
