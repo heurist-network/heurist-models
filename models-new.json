@@ -9,8 +9,9 @@
         "dtype": "float16",
         "size_mb": 456,
         "autofill": "z33k",
-        "recommend": "wearing ..., disguised as ...",
-        "default_weight": 1,
+        "recommend": "z33k wearing ..., disguised as ...",
+        "default_negative": "3d render, cgi, bad quality",
+        "default_weight": 0.8,
         "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4"
     },
     {
@@ -24,7 +25,7 @@
         "size_mb": 912,
         "autofill": "ph1land style, pixel art, isometric view",
         "recommend": "",
-        "default_weight": 1,
+        "default_weight": 0.7,
         "checksum": "A0F6340B8644F53240DD3970F58F15FBE1D10FE82B462B7E301D13A11B4F9F8F"
     },
     {
