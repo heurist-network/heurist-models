@@ -1,11 +1,11 @@
 {
-    "prompt": "z33k wearing gandalf outfit over grey background",
+    "prompt": "zeek, (black pants), red sweatshirt, brown background, futuristic style, best quality",
     "neg_prompt": "3d render, cgi, bad quality",
-    "seed": 314476949,
+    "seed": 4153736090,
     "width": 680,
     "height": 1024,
     "num_inference_steps": 23,
-    "guidance_scale": 4,
+    "guidance_scale": 5,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
         "use_karras_sigmas": true,
