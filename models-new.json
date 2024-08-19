@@ -43,6 +43,15 @@
         "checksum": "7CE7E5A4E9D7DA878B18363C89BA0F7707741F0896327D2E25435E076808FF98"
     },
     {
+        "name": "FLUX.1-dev",
+        "type": "flux-dev",
+        "author": "black-forest-labs",
+        "info_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+        "file_url": "https://files.heurist.xyz/flux-dev-model/",
+        "dtype": "float16",
+        "size_mb": 35000
+    },
+    {
         "name": "SDXL",
         "author": "StabilityAI",
         "type": "sdxl10",
