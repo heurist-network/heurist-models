@@ -1,5 +1,5 @@
 {
-    "prompt": "absurdres, highres, ultra detailed, 1girl, BREAK , watercolor style, soft blending, dreamy washes, delicate textures,",
+    "prompt": "absurdres, highres, ultra detailed, 1girl, watercolor style, soft blending, dreamy washes, delicate textures",
     "neg_prompt": "worst quality, nsfw, big head",
     "seed": 893624325,
     "width": 512,
