@@ -12,7 +12,15 @@
         "recommend": "zeek wearing ..., disguised as ...",
         "default_negative": "3d render, cgi, bad quality",
         "default_weight": 0.8,
-        "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4"
+        "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "Philand",
@@ -26,7 +34,15 @@
         "autofill": "philand style, pixel art, isometric view",
         "recommend": "",
         "default_weight": 0.7,
-        "checksum": "A0F6340B8644F53240DD3970F58F15FBE1D10FE82B462B7E301D13A11B4F9F8F"
+        "checksum": "A0F6340B8644F53240DD3970F58F15FBE1D10FE82B462B7E301D13A11B4F9F8F",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "WeirdCore",
@@ -40,7 +56,15 @@
         "autofill": "WRDCR style",
         "recommend": "",
         "default_weight": 1,
-        "checksum": "7CE7E5A4E9D7DA878B18363C89BA0F7707741F0896327D2E25435E076808FF98"
+        "checksum": "7CE7E5A4E9D7DA878B18363C89BA0F7707741F0896327D2E25435E076808FF98",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "FLUX.1-dev",
@@ -49,7 +73,15 @@
         "info_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
         "file_url": "https://files.heurist.xyz/FLUX.1-dev/",
         "dtype": "float16",
-        "size_mb": 35000
+        "size_mb": 35000,
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": null,
+            "num_inference_steps": 28,
+            "guidance_scale": 3.5,
+            "seed": null
+        }
     },
     {
         "name": "SDXL",
@@ -59,7 +91,15 @@
         "file_url": "https://files.heurist.xyz/sdXL_v10VAEFix.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "E6BB9EA85BBF7BF6478A7C6D18B71246F22E95D41BCDD80ED40AA212C33CFEFF"
+        "checksum": "E6BB9EA85BBF7BF6478A7C6D18B71246F22E95D41BCDD80ED40AA212C33CFEFF",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "PepeXL",
@@ -83,7 +123,15 @@
         "file_url": "https://files.heurist.xyz/chilloutmix_NiPrunedFp16Fix.safetensors",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C"
+        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": null,
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "MagusDevon",
@@ -107,7 +155,15 @@
         "vae": "vae-ft-mse-840000-ema-pruned",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "2B69964BBC2F99A9A96CB162D4F050A58921955EDC8FFCA9120110530ABF60B3"
+        "checksum": "2B69964BBC2F99A9A96CB162D4F050A58921955EDC8FFCA9120110530ABF60B3",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "BlazingDrive",
@@ -118,7 +174,15 @@
         "vae": "vae-ft-mse-840000-ema-pruned",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "623D0528ADCE4183777BD46BADD81EC614B65F9A3592F21727F068C5692726B4"
+        "checksum": "623D0528ADCE4183777BD46BADD81EC614B65F9A3592F21727F068C5692726B4",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "BluePencilRealistic",
@@ -130,7 +194,15 @@
         "dtype": "float16",
         "clip_skip": 2,
         "size_mb": 2150,
-        "checksum": "C1D3D52173B6B1C56C6BA03A14F55D8E4B07EF3387CA16807FA85DE729EB47CE"
+        "checksum": "C1D3D52173B6B1C56C6BA03A14F55D8E4B07EF3387CA16807FA85DE729EB47CE",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "YamersCartoonArcadia",
@@ -141,7 +213,15 @@
         "vae": "Liquid0111vae",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "FD49E8489DDA20568A2D19A8211569B059203D89DE5A159A999192F9B32DCA7D"
+        "checksum": "FD49E8489DDA20568A2D19A8211569B059203D89DE5A159A999192F9B32DCA7D",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "ArchitectureRealMix",
@@ -151,7 +231,15 @@
         "file_url": "https://files.heurist.xyz/architecturerealmix_v11.safetensors",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "C28787D1B418B2C81D849BA2CB25CF6D0F3ABB345C8215D8A786B875226E517C"
+        "checksum": "C28787D1B418B2C81D849BA2CB25CF6D0F3ABB345C8215D8A786B875226E517C",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "HelloWorldFilmGrain",
@@ -162,7 +250,15 @@
         "dtype": "float16",
         "clip_skip": 2,
         "size_mb": 5170,
-        "checksum": "FE54B5D04D5D55991B19CD120CC21F1161A1941EB85C5645E5813FD900F8B617"
+        "checksum": "FE54B5D04D5D55991B19CD120CC21F1161A1941EB85C5645E5813FD900F8B617",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "ArthemyComics",
@@ -172,7 +268,15 @@
         "file_url": "https://files.heurist.xyz/arthemyComics_v60.safetensors",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "B9CA0FA8A90619B163E382C467E9870110A95CA20AB75F9D5A44D040D2DF93F8"
+        "checksum": "B9CA0FA8A90619B163E382C467E9870110A95CA20AB75F9D5A44D040D2DF93F8",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "ArthemyReal",
@@ -182,7 +286,15 @@
         "file_url": "https://files.heurist.xyz/arthemyReal_v10.safetensors",
         "dtype": "float16",
         "size_mb": 2150,
-        "checksum": "4A97F316FAAF4BA673FCABF8285AE84D23DE1BF7346F76279D6064468EBE9833"
+        "checksum": "4A97F316FAAF4BA673FCABF8285AE84D23DE1BF7346F76279D6064468EBE9833",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "Aurora",
@@ -193,7 +305,15 @@
         "dtype": "float16",
         "vae": "kl-f8-anime2",
         "size_mb": 2150,
-        "checksum": "1B5F8211EC04926035AC81033518C802DB9964E93630AB4698B6365B9811C7EB"
+        "checksum": "1B5F8211EC04926035AC81033518C802DB9964E93630AB4698B6365B9811C7EB",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "SDXLUnstableDiffusersV11",
@@ -203,7 +323,15 @@
         "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "096EB037FC8AB7F154BF2DE9FBFF3B433F32E9BC66A1FAE9C14F28E881AF1D11"
+        "checksum": "096EB037FC8AB7F154BF2DE9FBFF3B433F32E9BC66A1FAE9C14F28E881AF1D11",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "AnimagineXL",
@@ -213,7 +341,15 @@
         "file_url": "https://files.heurist.xyz/animagineXLV31_v30.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "1449E5B0B9DE87B0F414C5F29CB11CE3B3DC61FA2B320E784C9441720BF7B766"
+        "checksum": "1449E5B0B9DE87B0F414C5F29CB11CE3B3DC61FA2B320E784C9441720BF7B766",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "CyberRealisticXL",
@@ -223,7 +359,15 @@
         "file_url": "https://files.heurist.xyz/cyberrealisticXL_v11VAE.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "E9337AE032D6A2D411702FC6ACAD76BFBDDDEB1A697A62BFDB83881E949532C8"
+        "checksum": "E9337AE032D6A2D411702FC6ACAD76BFBDDDEB1A697A62BFDB83881E949532C8",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "DreamShaperXL",
@@ -233,7 +377,15 @@
         "file_url": "https://files.heurist.xyz/dreamshaperXL_v21TurboDPMSDE.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083"
+        "checksum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "AAMXLAnimeMix",
@@ -243,7 +395,15 @@
         "file_url": "https://files.heurist.xyz/aamXLAnimeMix_v10.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "D48C2391E04F7DBC83D8538B71BE8A30991F3E4E2FF1A8A757B849381F769A8B"
+        "checksum": "D48C2391E04F7DBC83D8538B71BE8A30991F3E4E2FF1A8A757B849381F769A8B",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 28,
+            "guidance_scale": 7,
+            "seed": null
+        }
     },
     {
         "name": "mistralai/mixtral-8x7b-instruct",
