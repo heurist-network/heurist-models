@@ -4,7 +4,7 @@
     "seed": 58522723,
     "width": 512,
     "height": 768,
-    "num_inference_steps": 34,
+    "num_inference_steps": 30,
     "guidance_scale": 7,
     "sampler": {
         "class_name": "DPMSolverMultistepScheduler",
