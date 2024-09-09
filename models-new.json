@@ -71,6 +71,7 @@
         "type": "flux-dev-4bit",
         "author": "HighCWu",
         "info_url": "https://huggingface.co/HighCWu/FLUX.1-dev-4bit",
+        "file_url": "https://files.heurist.xyz/FLUX.1-dev/",
         "dtype": "float16",
         "size_mb": 35000,
         "defaults": {
