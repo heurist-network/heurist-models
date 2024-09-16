@@ -16,10 +16,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "3d render, cgi, bad quality",
+            "num_inference_steps": 20,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -36,11 +38,13 @@
         "default_weight": 0.7,
         "checksum": "A0F6340B8644F53240DD3970F58F15FBE1D10FE82B462B7E301D13A11B4F9F8F",
         "defaults": {
-            "width": 680,
+            "width": 1024,
             "height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "bad quality",
+            "num_inference_steps": 20,
+            "guidance_scale": 5,
             "seed": null
         }
     },
@@ -60,9 +64,11 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
+            "num_inference_steps": 20,
+            "guidance_scale": 5,
             "seed": null
         }
     },
@@ -70,17 +76,19 @@
         "name": "FLUX.1-dev",
         "type": "flux-dev",
         "author": "black-forest-labs",
-        "info_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+        "info_url": "https://huggingface.co/HighCWu/FLUX.1-dev-4bit",
         "file_url": "https://files.heurist.xyz/FLUX.1-dev/",
-        "dtype": "float16",
+        "dtype": "nf4",
         "size_mb": 35000,
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 2048,
+            "max_height": 2048,
             "neg_prompt": null,
-            "num_inference_steps": 28,
-            "guidance_scale": 3.5,
-            "seed": null
+            "num_inference_steps": 22,
+            "guidance_scale": 3,
+            "seed": -1
         }
     },
     {
@@ -95,10 +103,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -113,7 +123,17 @@
         "autofill": "Pepe",
         "recommend": "pepe_frog, meme, web comic, cartoon, 3d render",
         "default_weight": 0.8,
-        "checksum": "CBE1E1C746301801613CB331F2051AD16FF724DDA764A54135AA89D909067B97"
+        "checksum": "CBE1E1C746301801613CB331F2051AD16FF724DDA764A54135AA89D909067B97",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 20,
+            "guidance_scale": 5,
+            "seed": -1
+        }
     },
     {
         "name": "ChilloutMix",
@@ -127,10 +147,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
-            "neg_prompt": null,
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -144,7 +166,17 @@
         "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, mushrooms",
         "recommend": "white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear",
         "default_weight": 0.7,
-        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F"
+        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
     },
     {
         "name": "BrainDance",
@@ -159,10 +191,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -178,10 +212,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -198,10 +234,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -217,10 +255,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -235,10 +275,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -254,10 +296,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -272,10 +316,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -290,10 +336,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -309,10 +357,12 @@
         "defaults": {
             "width": 512,
             "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -327,10 +377,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -345,10 +397,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -363,10 +417,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -381,10 +437,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
@@ -399,10 +457,12 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 28,
-            "guidance_scale": 7,
-            "seed": null
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
         }
     },
     {
