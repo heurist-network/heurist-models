@@ -1,7 +1,14 @@
 {
     "prompt": "A spiderman inside the air while he swings at his spidernet holding a sign with the text 'Heurist.AI'",
-    "negative_prompt": "None",
-    "seed": 1234,
-    "guidance": 4
+    "neg_prompt": "",
+    "seed": 1451,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 20,
+    "guidance_scale": 7,
+    "sampler": {
+      "class_name": "DPMSolverMultistepScheduler",
+      "use_karras_sigmas": true,
+      "algorithm_type": "sde-dpmsolver++"
+    }
   }
-  

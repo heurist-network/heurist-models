@@ -1,7 +1,14 @@
 {
-    "prompt": " A demon king holding a glowing red sword",
-    "negative_prompt": "None",
-    "seed": 1234,
-    "guidance": 4
+    "prompt": "A demon king holding a glowing red sword",
+    "neg_prompt": "",
+    "seed": 5211,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 20,
+    "guidance_scale": 7,
+    "sampler": {
+      "class_name": "DPMSolverMultistepScheduler",
+      "use_karras_sigmas": true,
+      "algorithm_type": "sde-dpmsolver++"
+    }
   }
-  
