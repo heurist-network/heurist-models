@@ -1,0 +1,7 @@
+{
+    "prompt": "portrait of ((Pepe)), apocalypse, survivor, torn clothes, dark sky, huge moon, destroyed city, attention to detail, best quality, 4K, realism, particles, crazy PEPE",
+    "neg_prompt": "human, defects, artifacts, Photoshop, bad quality, normal quality, bad promts, sun, lack of body",
+    "resolution": "1024x1024",
+    "CFG": 5,
+    "steps": 40
+  }

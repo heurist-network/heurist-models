@@ -1,0 +1,7 @@
+{
+    "prompt": "portrait of ((Pepe)), wizard, magic, red magic, atmosphere, mystery, best quality, 4K, light, realism, attention to detail, wizard's hat, pendant, light from pendant, particle study, unknown, mysterious, moon, forest, night",
+    "neg_prompt": "human, defects, artifacts, Photoshop, bad quality, normal quality, bad promts, sun, lack of body",
+    "resolution": "1024x1024",
+    "CFG": 5,
+    "steps": 40
+  }
