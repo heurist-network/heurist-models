@@ -1,9 +1,14 @@
 {
-    "prompt": "A 3d render text saying 'AI' made out of Lego, childroom background",
-    "neg_prompt": "",
-    "seed": 61846,
-    "width": 680,
-    "height": 1024,
-    "num_inference_steps": 20,
-    "guidance_scale": 2.5
+  "prompt": "A 3d render text saying 'AI' made out of Lego, childroom background",
+  "neg_prompt": "",
+  "seed": 61846,
+  "width": 512,
+  "height": 768,
+  "num_inference_steps": 20,
+  "guidance_scale": 7,
+  "sampler": {
+    "class_name": "DPMSolverMultistepScheduler",
+    "use_karras_sigmas": true,
+    "algorithm_type": "sde-dpmsolver++"
   }
+}
