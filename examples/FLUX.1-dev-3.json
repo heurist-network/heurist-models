@@ -2,8 +2,8 @@
   "prompt": "A demon king holding a glowing red sword",
   "neg_prompt": "",
   "seed": 5211,
-  "width": 512,
-  "height": 768,
+  "width": 680,
+  "height": 1024,
   "num_inference_steps": 20,
   "guidance_scale": 7,
   "sampler": {
