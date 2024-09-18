@@ -1,5 +1,68 @@
 [
     {
+        "name": "FLUX.1-dev",
+        "type": "flux-dev",
+        "author": "black-forest-labs",
+        "info_url": "https://huggingface.co/HighCWu/FLUX.1-dev-4bit",
+        "file_url": "https://files.heurist.xyz/FLUX.1-dev/",
+        "dtype": "nf4",
+        "size_mb": 35000,
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 2048,
+            "max_height": 2048,
+            "neg_prompt": null,
+            "num_inference_steps": 20,
+            "guidance_scale": 2.5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "PepeXL",
+        "base": "AAMXLAnimeMix",
+        "author": "doctor_diffusion",
+        "type": "compositexl",
+        "info_url": "https://civitai.com/models/161611/pepe-xl-lora",
+        "file_url": "https://files.heurist.xyz/DD-pepe-v2.safetensors",
+        "dtype": "float16",
+        "size_mb": 234,
+        "autofill": "Pepe",
+        "recommend": "pepe_frog, meme, web comic, cartoon, 3d render",
+        "default_weight": 0.8,
+        "checksum": "CBE1E1C746301801613CB331F2051AD16FF724DDA764A54135AA89D909067B97",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 20,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "ChilloutMix",
+        "author": "civitai",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/6424?modelVersionId=11732",
+        "file_url": "https://files.heurist.xyz/chilloutmix_NiPrunedFp16Fix.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
         "name": "Zeek",
         "base": "SDXL",
         "author": "LDWorks",

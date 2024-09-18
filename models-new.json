@@ -49,30 +49,6 @@
         }
     },
     {
-        "name": "WeirdCore",
-        "base": "SDXL",
-        "author": "blairesilver13",
-        "type": "compositexl",
-        "info_url": "https://civitai.com/models/424043/weirdcore-style",
-        "file_url": "https://files.heurist.xyz/Weirdcore.safetensors",
-        "dtype": "float16",
-        "size_mb": 1392,
-        "autofill": "WRDCR style",
-        "recommend": "",
-        "default_weight": 1,
-        "checksum": "7CE7E5A4E9D7DA878B18363C89BA0F7707741F0896327D2E25435E076808FF98",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 20,
-            "guidance_scale": 5,
-            "seed": null
-        }
-    },
-    {
         "name": "FLUX.1-dev",
         "type": "flux-dev",
         "author": "black-forest-labs",
