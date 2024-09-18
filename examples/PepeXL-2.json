@@ -1,0 +1,14 @@
+{
+    "prompt": "portrait of ((Pepe)), cowboy, Wild West, desert, cowboy hat, leather belt, cacti, Wild West atmosphere, leather jacket, best quality, 4K, realism, attention to detail, mystery",
+    "neg_prompt": "human, defects, artifacts, Photoshop, bad quality, normal quality, bad promts, sun, lack of body",
+    "seed": 846165,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 20,
+    "guidance_scale": 7,
+    "sampler": {
+      "class_name": "DPMSolverMultistepScheduler",
+      "use_karras_sigmas": true,
+      "algorithm_type": "sde-dpmsolver++"
+    }
+  }

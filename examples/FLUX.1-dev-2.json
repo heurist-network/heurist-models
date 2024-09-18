@@ -1,0 +1,9 @@
+{
+    "prompt": "A spiderman inside the air while he swings at his spidernet holding a sign with the text 'Heurist.AI'",
+    "neg_prompt": "",
+    "seed": 1451,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 20,
+    "guidance_scale": 2.5
+  }

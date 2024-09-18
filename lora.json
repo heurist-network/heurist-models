@@ -22,5 +22,19 @@
         "recommend": "wearing ..., disguised as ...",
         "default_weight": 1,
         "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4"
+    },
+    {
+        "name": "PepeXL",
+        "type": "lora",
+        "base_model": "sdxl10",
+        "author": "doctor_diffusion",
+        "info_url": "https://civitai.com/models/161611/pepe-xl-lora",
+        "file_url": "https://files.heurist.xyz/DD-pepe-v2.safetensors",
+        "dtype": "float16",
+        "size_mb": 234,
+        "autofill": "Pepe",
+        "recommend": "pepe_frog, meme, web comic, cartoon, 3d render",
+        "default_weight": 0.8,
+        "checksum": "CBE1E1C746301801613CB331F2051AD16FF724DDA764A54135AA89D909067B97"
     }
 ]
