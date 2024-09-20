@@ -543,5 +543,13 @@
         "info_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "bits": 16,
         "size_gb": 16
+    },
+    {
+        "name": "openhermes-2-pro-llama-3-8b",
+        "type": "llm8b16b",
+        "hf_id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
+        "info_url": "https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B",
+        "bits": 16,
+        "size_gb": 18
     }
 ]
