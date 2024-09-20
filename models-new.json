@@ -535,5 +535,13 @@
         "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9.4-llama3.1-8b",
         "bits": 16,
         "size_gb": 18
+    },
+    {
+        "name": "Qwen2.5-7B-Instruct",
+        "type": "llm7b16b",
+        "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+        "info_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "bits": 16,
+        "size_gb": 16
     }
 ]
