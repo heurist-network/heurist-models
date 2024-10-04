@@ -436,15 +436,6 @@
         "size_gb": 0
     },
     {
-        "name": "meta-llama/llama-2-70b-chat",
-        "type": "llm70b4b",
-        "hf_id": "TheBloke/Llama-2-70B-Chat-GPTQ",
-        "hf_branch": "gptq-4bit-32g-actorder_True",
-        "info_url": "https://huggingface.co/TheBloke/Llama-2-70B-Chat-GPTQ",
-        "bits": 4,
-        "size_gb": 41
-    },
-    {
         "name": "meta-llama/llama-3-70b-instruct",
         "type": "llm70b",
         "hf_id": "",
