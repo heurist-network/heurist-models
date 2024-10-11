@@ -1,7 +1,7 @@
 {
-    "prompt": "girl, simple background, side shot, ultra detailed, mecha, cyber full face helmet, goggles, Illustrate a translucent watercolor painting, with delicate washes of color, subtle blending, and an airy, dreamlike quality",
+    "prompt": "strong man, simple background, side shot, ultra detailed, mecha, cyber full face helmet, goggles, metalic painting, delicate washes of color, subtle blending, airy dreamlike quality",
     "neg_prompt": "worst quality, nsfw",
-    "seed": 2795363458,
+    "seed": 2795363457,
     "width": 512,
     "height": 768,
     "num_inference_steps": 30,
