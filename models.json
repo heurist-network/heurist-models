@@ -43,14 +43,58 @@
         }
     },
     {
-        "name": "ChilloutMix",
-        "author": "civitai",
+        "name": "Aurora",
+        "author": "Luna",
         "type": "sd15",
-        "info_url": "https://civitai.com/models/6424?modelVersionId=11732",
-        "file_url": "https://files.heurist.xyz/chilloutmix_NiPrunedFp16Fix.safetensors",
+        "info_url": "https://civitai.com/models/40199/aurora",
+        "file_url": "https://files.heurist.xyz/aurora_v10.safetensors",
         "dtype": "float16",
+        "vae": "kl-f8-anime2",
         "size_mb": 2150,
-        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C",
+        "checksum": "1B5F8211EC04926035AC81033518C802DB9964E93630AB4698B6365B9811C7EB",
+        "defaults": {
+            "width": 512,
+            "height": 768,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "AnimagineXL",
+        "author": "CagliostroLab",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/260267?modelVersionId=293564",
+        "file_url": "https://files.heurist.xyz/animagineXLV31_v30.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "1449E5B0B9DE87B0F414C5F29CB11CE3B3DC61FA2B320E784C9441720BF7B766",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "MagusDevon",
+        "base": "Aurora",
+        "author": "madotsuki.eth",
+        "author_url": "https://madotsuki.eth.co/",
+        "type": "composite15",
+        "info_url": "",
+        "file_url": "",
+        "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, mushrooms",
+        "recommend": "white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear",
+        "default_weight": 0.7,
+        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F",
         "defaults": {
             "width": 512,
             "height": 768,
@@ -88,40 +132,17 @@
         }
     },
     {
-        "name": "SDXL",
-        "author": "StabilityAI",
+        "name": "CyberRealisticXL",
+        "author": "Cyberdelia",
         "type": "sdxl10",
-        "info_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-        "file_url": "https://files.heurist.xyz/sdXL_v10VAEFix.safetensors",
+        "info_url": "https://civitai.com/models/312530?modelVersionId=395041",
+        "file_url": "https://files.heurist.xyz/cyberrealisticXL_v11VAE.safetensors",
         "dtype": "float16",
         "size_mb": 6950,
-        "checksum": "E6BB9EA85BBF7BF6478A7C6D18B71246F22E95D41BCDD80ED40AA212C33CFEFF",
+        "checksum": "E9337AE032D6A2D411702FC6ACAD76BFBDDDEB1A697A62BFDB83881E949532C8",
         "defaults": {
             "width": 680,
             "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "MagusDevon",
-        "base": "Aurora",
-        "author": "madotsuki.eth",
-        "author_url": "https://madotsuki.eth.co/",
-        "type": "composite15",
-        "info_url": "",
-        "file_url": "",
-        "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, mushrooms",
-        "recommend": "white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear",
-        "default_weight": 0.7,
-        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F",
-        "defaults": {
-            "width": 512,
-            "height": 768,
             "max_width": 1024,
             "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
@@ -297,87 +318,6 @@
         }
     },
     {
-        "name": "Aurora",
-        "author": "Luna",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/40199/aurora",
-        "file_url": "https://files.heurist.xyz/aurora_v10.safetensors",
-        "dtype": "float16",
-        "vae": "kl-f8-anime2",
-        "size_mb": 2150,
-        "checksum": "1B5F8211EC04926035AC81033518C802DB9964E93630AB4698B6365B9811C7EB",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "SDXLUnstableDiffusersV11",
-        "author": "Yamer",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/84040?modelVersionId=276923",
-        "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "096EB037FC8AB7F154BF2DE9FBFF3B433F32E9BC66A1FAE9C14F28E881AF1D11",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "AnimagineXL",
-        "author": "CagliostroLab",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/260267?modelVersionId=293564",
-        "file_url": "https://files.heurist.xyz/animagineXLV31_v30.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "1449E5B0B9DE87B0F414C5F29CB11CE3B3DC61FA2B320E784C9441720BF7B766",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "CyberRealisticXL",
-        "author": "Cyberdelia",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/312530?modelVersionId=395041",
-        "file_url": "https://files.heurist.xyz/cyberrealisticXL_v11VAE.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "E9337AE032D6A2D411702FC6ACAD76BFBDDDEB1A697A62BFDB83881E949532C8",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
         "name": "DreamShaperXL",
         "author": "Lykon",
         "type": "sdxl10",
@@ -409,6 +349,66 @@
         "defaults": {
             "width": 680,
             "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "SDXLUnstableDiffusersV11",
+        "author": "Yamer",
+        "type": "sdxl10",
+        "info_url": "https://civitai.com/models/84040?modelVersionId=276923",
+        "file_url": "https://files.heurist.xyz/sdxlUnstableDiffusers_v11.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "096EB037FC8AB7F154BF2DE9FBFF3B433F32E9BC66A1FAE9C14F28E881AF1D11",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "SDXL",
+        "author": "StabilityAI",
+        "type": "sdxl10",
+        "info_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "file_url": "https://files.heurist.xyz/sdXL_v10VAEFix.safetensors",
+        "dtype": "float16",
+        "size_mb": 6950,
+        "checksum": "E6BB9EA85BBF7BF6478A7C6D18B71246F22E95D41BCDD80ED40AA212C33CFEFF",
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 1024,
+            "max_height": 1024,
+            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
+            "num_inference_steps": 25,
+            "guidance_scale": 5,
+            "seed": -1
+        }
+    },
+    {
+        "name": "ChilloutMix",
+        "author": "civitai",
+        "type": "sd15",
+        "info_url": "https://civitai.com/models/6424?modelVersionId=11732",
+        "file_url": "https://files.heurist.xyz/chilloutmix_NiPrunedFp16Fix.safetensors",
+        "dtype": "float16",
+        "size_mb": 2150,
+        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C",
+        "defaults": {
+            "width": 512,
+            "height": 768,
             "max_width": 1024,
             "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
