@@ -475,6 +475,7 @@
         "type": "llm8b16b",
         "hf_id": "NousResearch/Hermes-3-Llama-3.1-8B",
         "info_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+        "support_tools": true,
         "bits": 16,
         "size_gb": 18
     },
