@@ -455,9 +455,34 @@
     },
     {
         "name": "dolphin-2.9-llama3-8b",
+        "redirect": "dolphin-2.9.4-llama3.1-8b",
         "type": "llm8b16b",
         "hf_id": "cognitivecomputations/dolphin-2.9-llama3-8b",
         "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
+        "bits": 16,
+        "size_gb": 18
+    },
+    {
+        "name": "dolphin-2.9.4-llama3.1-8b",
+        "type": "llm8b16b",
+        "hf_id": "cognitivecomputations/dolphin-2.9.4-llama3.1-8b",
+        "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9.4-llama3.1-8b",
+        "bits": 16,
+        "size_gb": 18
+    },
+    {
+        "name": "hermes-3-llama3.1-8b",
+        "type": "llm8b16b",
+        "hf_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+        "info_url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+        "bits": 16,
+        "size_gb": 18
+    },
+    {
+        "name": "theia-llama-3.1-8b",
+        "type": "llm8b16b",
+        "hf_id": "Chainbase-Labs/Theia-Llama-3.1-8B-v1",
+        "info_url": "https://huggingface.co/Chainbase-Labs/Theia-Llama-3.1-8B-v1",
         "bits": 16,
         "size_gb": 18
     },
