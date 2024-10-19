@@ -38,18 +38,18 @@
         "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4"
     },
     {
-        "name": "WeirdCore",
+        "name": "Kook",
         "type": "lora",
         "base_model": "sdxl10",
-        "author": "blairesilver13",
-        "info_url": "https://civitai.com/models/424043/weirdcore-style",
-        "file_url": "https://files.heurist.xyz/Weirdcore.safetensors",
+        "author": "LDWorks",
+        "info_url": "",
+        "file_url": "https://files.heurist.xyz/kook.safetensors",
         "dtype": "float16",
-        "size_mb": 1392,
-        "autofill": "WRDCR style",
-        "recommend": "",
-        "default_weight": 1,
-        "checksum": "7CE7E5A4E9D7DA878B18363C89BA0F7707741F0896327D2E25435E076808FF98"
+        "size_mb": 74,
+        "autofill": "a woman with a red headscarf",
+        "recommend": "masked face",
+        "default_weight": 1.0,
+        "checksum": "7DB3CBAD84E685DAFE9B4A23114ECF856C0ABD378EC744A19CC883CCFCFF9C76",
     },
     {
         "name": "PepeXL",
