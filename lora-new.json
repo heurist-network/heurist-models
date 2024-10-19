@@ -38,20 +38,6 @@
         "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4"
     },
     {
-        "name": "Kook",
-        "type": "lora",
-        "base_model": "sdxl10",
-        "author": "LDWorks",
-        "info_url": "",
-        "file_url": "https://files.heurist.xyz/kook.safetensors",
-        "dtype": "float16",
-        "size_mb": 74,
-        "autofill": "a woman with a red headscarf",
-        "recommend": "masked face",
-        "default_weight": 1.0,
-        "checksum": "7DB3CBAD84E685DAFE9B4A23114ECF856C0ABD378EC744A19CC883CCFCFF9C76"
-    },
-    {
         "name": "PepeXL",
         "type": "lora",
         "base_model": "sdxl10",
