@@ -455,18 +455,9 @@
     },
     {
         "name": "dolphin-2.9-llama3-8b",
-        "redirect": "dolphin-2.9.1-llama-3-8b",
         "type": "llm8b16b",
         "hf_id": "cognitivecomputations/dolphin-2.9-llama3-8b",
         "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b",
-        "bits": 16,
-        "size_gb": 18
-    },
-    {
-        "name": "dolphin-2.9.1-llama-3-8b",
-        "type": "llm8b16b",
-        "hf_id": "cognitivecomputations/dolphin-2.9.1-llama-3-8b",
-        "info_url": "https://huggingface.co/cognitivecomputations/dolphin-2.9.1-llama-3-8b",
         "bits": 16,
         "size_gb": 18
     },
