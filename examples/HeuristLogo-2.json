@@ -1,0 +1,9 @@
+{
+    "prompt": "A cinematic and realistic scene depicting advanced robotic creatures with the Heuristai logo as their heads. The logo serves as the central design element, glowing with a metallic sheen, integrated seamlessly as the head, symbolizing intelligence and purpose. These robots have sleek, agile bodies, crafted with a mix of polished metal and intricate mechanical joints, showcasing their advanced engineering. The scene is set in a futuristic urban landscape with towering structures, dim ambient lighting, and dramatic shadows, enhancing the epic mood. Fog rolls through the background, and faint neon lights reflect off the robots' metallic frames, creating a sense of mystery and tension. The mood is cinematic, evoking both awe and curiosity about these robotic beings, and the power behind the Heuristai symbol",
+    "neg_prompt": "",
+    "seed": -1,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 20,
+    "guidance_scale": 3
+}

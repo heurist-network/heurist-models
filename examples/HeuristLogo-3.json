@@ -1,0 +1,9 @@
+{
+    "prompt": "heuristai logo in a dark dungeon a wizard making a potion, The wizard is conjuring a spell and we can see fire emerging forming a clear logo in the air. heuristai logo is hexagonal and geometric.",
+    "neg_prompt": "",
+    "seed": -1,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 20,
+    "guidance_scale": 3
+}

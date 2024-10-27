@@ -1,0 +1,9 @@
+{
+    "prompt": "A gentle, liquid world where the heuristai logo rises from the surface of a still, glassy pool. The logo appears as a soft, organic shape, glowing lightly with shades of green, its surface rippling as if made from water. Soft waves spread out from the base of the logo, creating a mesmerizing dance of light and shadow across the liquid surface. The air around it shimmers with delicate particles, giving the whole scene a light, dreamlike quality as though the logo is born from the very essence of creative energy.",
+    "neg_prompt": "",
+    "seed": -1,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 20,
+    "guidance_scale": 3
+}
