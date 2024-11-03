@@ -438,6 +438,15 @@
         }
     },
     {
+        "name": "nvidia/llama-3.1-nemotron-70b-instruct",
+        "type": "llm70b",
+        "hf_id": "",
+        "hf_branch": "",
+        "info_url": "",
+        "bits": 0,
+        "size_gb": 0
+    },
+    {
         "name": "mistralai/mixtral-8x7b-instruct",
         "type": "llm8x7b4b",
         "hf_id": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
