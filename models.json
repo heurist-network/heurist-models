@@ -447,6 +447,15 @@
         "size_gb": 0
     },
     {
+        "name": "qwen/qwen-2.5-coder-32b-instruct",
+        "type": "llm32b",
+        "hf_id": "Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8",
+        "hf_branch": "main",
+        "info_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct-GPTQ-Int8",
+        "bits": 8,
+        "size_gb": 32
+    },
+    {
         "name": "mistralai/mixtral-8x7b-instruct",
         "type": "llm8x7b4b",
         "hf_id": "TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ",
