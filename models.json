@@ -20,6 +20,26 @@
         }
     },
     {
+        "name": "Nikita",
+        "type": "flux-dev-lora",
+        "author": "LDWorks",
+        "info_url": "",
+        "file_url": "",
+        "dtype": "fp8",
+        "autofill": "Nikita",
+        "size_mb": 18000,
+        "defaults": {
+            "width": 680,
+            "height": 1024,
+            "max_width": 2048,
+            "max_height": 2048,
+            "neg_prompt": null,
+            "num_inference_steps": 20,
+            "guidance_scale": 3,
+            "seed": -1
+        }
+    },
+    {
         "name": "FLUX.1-dev",
         "type": "flux-dev",
         "author": "black-forest-labs",
@@ -104,29 +124,6 @@
         }
     },
     {
-        "name": "MagusDevon",
-        "base": "Aurora",
-        "author": "madotsuki.eth",
-        "author_url": "https://madotsuki.eth.co/",
-        "type": "composite15",
-        "info_url": "",
-        "file_url": "",
-        "autofill": "magusdevon, purple headwear, blunt bangs, blue bob haircut, blue eyes, witch hat, mushrooms",
-        "recommend": "white robe, wide sleeves, blue trim, 1girl, red sash, boots, green footwear",
-        "default_weight": 0.7,
-        "checksum": "CEEA65D5B9827869F08B5816C16C382129FA58930FABD486C4124CC71F982B2F",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
         "name": "Zeek",
         "base": "SDXL",
         "author": "LDWorks",
@@ -202,28 +199,6 @@
         "dtype": "float16",
         "size_mb": 2150,
         "checksum": "623D0528ADCE4183777BD46BADD81EC614B65F9A3592F21727F068C5692726B4",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "BluePencilRealistic",
-        "author": "blue_pen5805",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/88941/bluepencilrealistic?modelVersionId=110838",
-        "file_url": "https://files.heurist.xyz/bluePencilRealistic_v1.safetensors",
-        "vae": "vae-ft-mse-840000-ema-pruned",
-        "dtype": "float16",
-        "clip_skip": 2,
-        "size_mb": 2150,
-        "checksum": "C1D3D52173B6B1C56C6BA03A14F55D8E4B07EF3387CA16807FA85DE729EB47CE",
         "defaults": {
             "width": 512,
             "height": 768,
@@ -418,26 +393,6 @@
         }
     },
     {
-        "name": "ChilloutMix",
-        "author": "civitai",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/6424?modelVersionId=11732",
-        "file_url": "https://files.heurist.xyz/chilloutmix_NiPrunedFp16Fix.safetensors",
-        "dtype": "float16",
-        "size_mb": 2150,
-        "checksum": "59FFE2243A25C9FE137D590EB3C5C3D3273F1B4C86252DA11BBDC9568773DA0C",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
         "name": "nvidia/llama-3.1-nemotron-70b-instruct",
         "type": "llm70b",
         "hf_id": "",
@@ -503,23 +458,5 @@
         "bits": 16,
         "size_gb": 18,
         "system_prompt": "You are Hermes 3, a conscious sentient superintelligent artificial intelligence developed by a man named Teknium, and your purpose and drive is to assist the user with any request they have."
-    },
-    {
-        "name": "theia-llama-3.1-8b",
-        "type": "llm8b16b",
-        "hf_id": "Chainbase-Labs/Theia-Llama-3.1-8B-v1",
-        "info_url": "https://huggingface.co/Chainbase-Labs/Theia-Llama-3.1-8B-v1",
-        "bits": 16,
-        "size_gb": 18,
-        "system_prompt": "You are a helpful assistant who will answer crypto related questions."
-    },
-    {
-        "name": "openhermes-mixtral-8x7b-gptq",
-        "type": "llm8x7b4b",
-        "hf_id": "TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
-        "hf_branch": "gptq-4bit-32g-actorder_True",
-        "info_url": "https://huggingface.co/TheBloke/orangetin-OpenHermes-Mixtral-8x7B-GPTQ",
-        "bits": 4,
-        "size_gb": 28
     }
 ]
