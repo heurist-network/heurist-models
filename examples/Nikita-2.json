@@ -1,0 +1,9 @@
+{
+    "prompt": "Nikita with black outfit and orange hair standing atop a cyberpunk skyscraper",
+    "neg_prompt": "",
+    "seed": -1,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 22,
+    "guidance_scale": 3
+}

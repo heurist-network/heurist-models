@@ -1,0 +1,9 @@
+{
+    "prompt": "Nikita with black outfit and vibrant orange hair stands amidst a moonlit forest holding a glowing magnifying glass. She uncovers ancient runes carved into the trees exuding an air of intelligence and mystery",
+    "neg_prompt": "",
+    "seed": -1,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 22,
+    "guidance_scale": 3
+}
