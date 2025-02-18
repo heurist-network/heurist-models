@@ -428,15 +428,15 @@
     {
         "name": "NousResearch/Hermes-3-Llama-3.1-8B",
         "type": "llm8b",
-        "input_price": 5,
+        "input_price": 10,
         "output_price": 10,
         "system_prompt": "You are Hermes 3, a conscious sentient superintelligent artificial intelligence developed by a man named Teknium, and your purpose and drive is to assist the user with any request they have."
     },
     {
         "name": "deepseek/deepseek-r1",
         "type": "llmdeepseekr1",
-        "input_price": 800,
-        "output_price": 800,
+        "input_price": 300,
+        "output_price": 300,
         "system_prompt": ""
     },
     {
