@@ -20,26 +20,6 @@
         }
     },
     {
-        "name": "Nikita",
-        "type": "flux-dev-lora",
-        "author": "LDWorks",
-        "info_url": "",
-        "file_url": "",
-        "dtype": "fp8",
-        "autofill": "Nikita with black outfit and orange hair",
-        "size_mb": 18000,
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 2048,
-            "max_height": 2048,
-            "neg_prompt": null,
-            "num_inference_steps": 20,
-            "guidance_scale": 3,
-            "seed": -1
-        }
-    },
-    {
         "name": "FLUX.1-dev",
         "type": "flux-dev",
         "author": "black-forest-labs",
@@ -124,31 +104,6 @@
         }
     },
     {
-        "name": "Zeek",
-        "base": "SDXL",
-        "author": "LDWorks",
-        "type": "compositexl",
-        "info_url": "",
-        "file_url": "https://files.heurist.xyz/z33k-Heurist-v2.5.safetensors0",
-        "dtype": "float16",
-        "size_mb": 456,
-        "autofill": "zeek",
-        "recommend": "zeek wearing ..., disguised as ...",
-        "default_negative": "3d render, cgi, bad quality",
-        "default_weight": 0.8,
-        "checksum": "40496E7BA082524AABDB66F9DDF19D33336DA46A945BE10F127ADE3CE7943ED4",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "3d render, cgi, bad quality",
-            "num_inference_steps": 20,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
         "name": "CyberRealisticXL",
         "author": "Cyberdelia",
         "type": "sdxl10",
@@ -188,28 +143,7 @@
             "guidance_scale": 5,
             "seed": -1
         }
-    },
-    {
-        "name": "BlazingDrive",
-        "author": "br_d",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/121083?modelVersionId=245691",
-        "file_url": "https://files.heurist.xyz/blazingDrive_V12g.safetensors",
-        "vae": "vae-ft-mse-840000-ema-pruned",
-        "dtype": "float16",
-        "size_mb": 2150,
-        "checksum": "623D0528ADCE4183777BD46BADD81EC614B65F9A3592F21727F068C5692726B4",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
+    },    
     {
         "name": "YamersCartoonArcadia",
         "author": "Yamer",
@@ -220,47 +154,6 @@
         "dtype": "float16",
         "size_mb": 2150,
         "checksum": "FD49E8489DDA20568A2D19A8211569B059203D89DE5A159A999192F9B32DCA7D",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "ArchitectureRealMix",
-        "author": "laizhende",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/84958?modelVersionId=431755",
-        "file_url": "https://files.heurist.xyz/architecturerealmix_v11.safetensors",
-        "dtype": "float16",
-        "size_mb": 2150,
-        "checksum": "C28787D1B418B2C81D849BA2CB25CF6D0F3ABB345C8215D8A786B875226E517C",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "HelloWorldFilmGrain",
-        "author": "LEOSAM",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/43977?modelVersionId=113623",
-        "file_url": "https://files.heurist.xyz/leosamsHelloworldSDXL_filmGrain20.safetensors",
-        "dtype": "float16",
-        "clip_skip": 2,
-        "size_mb": 5170,
-        "checksum": "FE54B5D04D5D55991B19CD120CC21F1161A1941EB85C5645E5813FD900F8B617",
         "defaults": {
             "width": 512,
             "height": 768,
@@ -284,46 +177,6 @@
         "defaults": {
             "width": 512,
             "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "ArthemyReal",
-        "author": "Arthemy",
-        "type": "sd15",
-        "info_url": "https://civitai.com/models/240547/arthemy-real?modelVersionId=271398",
-        "file_url": "https://files.heurist.xyz/arthemyReal_v10.safetensors",
-        "dtype": "float16",
-        "size_mb": 2150,
-        "checksum": "4A97F316FAAF4BA673FCABF8285AE84D23DE1BF7346F76279D6064468EBE9833",
-        "defaults": {
-            "width": 512,
-            "height": 768,
-            "max_width": 1024,
-            "max_height": 1024,
-            "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
-            "num_inference_steps": 25,
-            "guidance_scale": 5,
-            "seed": -1
-        }
-    },
-    {
-        "name": "DreamShaperXL",
-        "author": "Lykon",
-        "type": "sdxl10",
-        "info_url": "https://civitai.com/models/112902/dreamshaper-xl",
-        "file_url": "https://files.heurist.xyz/dreamshaperXL_v21TurboDPMSDE.safetensors",
-        "dtype": "float16",
-        "size_mb": 6950,
-        "checksum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083",
-        "defaults": {
-            "width": 680,
-            "height": 1024,
             "max_width": 1024,
             "max_height": 1024,
             "neg_prompt": "(worst quality: 1.4), bad quality, nsfw",
