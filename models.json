@@ -20,6 +20,21 @@
         }
     },
     {
+        "name": "Flux-Kontext-Max",
+        "type": "flux-kontext",
+        "author": "black-forest-labs",
+        "info_url": "",
+        "file_url": "",
+        "dtype": "fp8",
+        "autofill": "Put a donut next to the flour.",
+        "size_mb": 18000,
+        "defaults": {
+            "guidance_scale": 3.5,
+            "seed": -1,
+            "requires_input_image": true
+        }
+    },
+    {
         "name": "FLUX.1-dev",
         "type": "flux-dev",
         "author": "black-forest-labs",
@@ -143,7 +158,7 @@
             "guidance_scale": 5,
             "seed": -1
         }
-    },    
+    },
     {
         "name": "YamersCartoonArcadia",
         "author": "Yamer",
